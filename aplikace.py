@@ -47,24 +47,22 @@ financial_df.dropna(subset=['Sector', 'P/E', 'ROE'], inplace=True)
 # Karty
 # ---------------------------------------------
 tab1, tab4 = st.tabs([
-    "📊 Tabulka firem",
-    "🏦 Detail firmy"
+    "📊 Tabulka sektorů",
+    "🏦 Detail konkrétní firmy"
 ])
 
 with tab1:
-    # Sektor na výběr
     sectors = financial_df['Sector'].dropna().unique()
     selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
 
-    # Filtrování podle sektoru
     sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
     sector_df.sort_values('P/E', inplace=True)
     sector_df['Quartile'] = pd.qcut(sector_df['P/E'], 4, labels=["Q1", "Q2", "Q3", "Q4"])
 
     st.subheader(f"Firmy v sektoru: {selected_sector}")
-    st.dataframe(sector_df)
-
-    st.subheader(f"Interaktivní boxplot P/E")
+    st.dataframe(sector_df[['Ticker','Name','P/E','ROE','Quartile']])
+    # ----------------------------------------------------------------------------------------
+    st.subheader(f"Boxplot P/E")
     fig = px.box(
         sector_df,
         x='P/E',
@@ -76,8 +74,8 @@ with tab1:
     fig.update_traces(marker=dict(size=6, opacity=0.5))
     fig.update_layout(height=400)
     st.plotly_chart(fig, use_container_width=True)
-
-    st.subheader(f"Interaktivní scatter plot P/E vs ROE")
+    #----------------------------------------------------------------------------------------
+    st.subheader(f"Scatter plot P/E vs ROE")
     fig = px.scatter(
         sector_df,
         x='P/E',
@@ -92,13 +90,11 @@ with tab1:
     st.plotly_chart(fig, use_container_width=True)
 
 
-
-
 # Tab 4 - Detail tickeru
 with tab4:
     st.title("Finanční data a dividendy")
-    ticker_symbol = st.text_input("Zadejte ticker (např. AAPL, MSFT):", "AAPL")
-    start_date = st.date_input("Od", value=date(2020, 1, 1))
+    ticker_symbol = st.text_input("Zadejte ticker:", "SPG")
+    start_date = st.date_input("Od", value=date(2022, 1, 1))
     end_date = st.date_input("Do", value=date.today())
 
     if ticker_symbol:
@@ -111,6 +107,8 @@ with tab4:
         st.write(f"**Průmysl:** {info.get('industry', 'N/A')}")
 
         hist_data = ticker_data.history(start=start_date, end=end_date)
+
+        hist_data.index=hist_data.index.date
         hist_data['MA50'] = hist_data['Close'].rolling(window=50).mean()
         hist_data['MA200'] = hist_data['Close'].rolling(window=200).mean()
 
@@ -118,7 +116,7 @@ with tab4:
         st.line_chart(hist_data[['Close', 'MA50', 'MA200']])
 
         st.subheader("Historická data")
-        st.write(hist_data)
+        st.write(hist_data[::-1])
 
         st.markdown("---")
         st.header("Dividendy a ex-dividend data")
@@ -136,7 +134,7 @@ with tab4:
 
             dividend_yield = info.get('dividendYield')
             if dividend_yield is not None:
-                st.write(f"**Dividend Yield:** {dividend_yield * 100:.2f}%")
+                st.write(f"**Dividend Yield:** {dividend_yield:.2f}%")
             else:
                 st.write("**Dividend Yield:** Není dostupná")
 
@@ -164,6 +162,6 @@ with tab4:
                 df_dividends['% Change'] = df_dividends['Dividend'].pct_change() * 100
                 df_dividends['Dividend'] = df_dividends['Dividend'].round(2)
                 df_dividends['% Change'] = df_dividends['% Change'].round(2)
-                st.write(df_dividends)
+                st.write(df_dividends[::-1])
             else:
                 st.write("Dividendová data nejsou k dispozici.")
