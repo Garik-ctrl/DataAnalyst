@@ -1,15 +1,11 @@
 Symbol,Name,Last Sale,Net Change,% Change,Market Cap,Country,IPO Year,Volume,Sector,Industry
 AACB,Artius II Acquisition Inc. Class A Ordinary Shares,$9.94,0.01,0.101%,0.00,United States,2025,1534,,
-AACBR,Artius II Acquisition Inc. Rights,$0.18,0.00,0.00%,0.00,United States,2025,12,,
-AACBU,Artius II Acquisition Inc. Units,$10.0754,0.0032,0.032%,0.00,United States,2025,4496,Finance,Blank Checks
 AACG,ATA Creativity Global American Depositary Shares,$0.9555,0.0155,1.649%,30491330.00,China,2008,39362,Real Estate,Other Consumer Services
 AAME,Atlantic American Corporation Common Stock,$1.3878,-0.0322,-2.268%,28310784.00,United States,,2971,Finance,Life Insurance
 AAOI,Applied Optoelectronics Inc. Common Stock,$10.43,-1.02,-8.908%,517864957.00,United States,2013,3254817,Technology,Semiconductors
 AAPG,Ascentage Pharma Group International American Depository Shares,$18.87,-0.58,-2.982%,1622604901.00,China,2025,624,Health Care,Biotechnology: Pharmaceutical Preparations
-ABLLL,Abacus Global Management Inc. 9.875% Fixed Rate Senior Notes due 2028,$25.40,-0.06,-0.236%,1896144214.00,United States,,5058,Finance,Investment Managers
 ABP,Abpro Holdings Inc Common Stock,$0.246,-0.017,-6.464%,12845967.00,United States,2022,184415,Health Care,Biotechnology: Pharmaceutical Preparations
 ABVE,Above Food Ingredients Inc. Common Stock,$0.5101,0.0052,1.03%,14183130.00,Canada,,150870,Consumer Staples,Packaged Foods
-ABVEW,Above Food Ingredients Inc. Warrants,$0.0256,0.0031,13.778%,711798.00,Canada,,200,Consumer Staples,Packaged Foods
 ABVX,Abivax SA American Depositary Shares,$6.29,0.23,3.795%,398680913.00,France,2023,123307,Health Care,Biotechnology: Pharmaceutical Preparations
 ACET,Adicet Bio Inc. Common Stock ,$0.5713,-0.0203,-3.431%,47238369.00,United States,2018,235013,Health Care,Biotechnology: Pharmaceutical Preparations
 ACIU,AC Immune SA Common Stock,$1.50,-0.01,-0.662%,150615566.00,Switzerland,2016,80937,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -22,9 +18,6 @@ ADMA,ADMA Biologics Inc Common Stock,$21.23,-0.92,-4.153%,5044568573.00,United S
 AFCG,Advanced Flower Capital Inc. Common Stock,$5.03,-0.08,-1.566%,113657915.00,United States,2021,118780,Finance,Real Estate
 AFMD,Affimed N.V.,$0.726,0.005,0.693%,11055138.00,Germany,2014,47957,Health Care,Biotechnology: Pharmaceutical Preparations
 AIFE,Aifeex Nexus Acquisition Corporation Class A Ordinary Shares,$10.02,-0.01,-0.10%,0.00,United States,2025,663,,
-AIMAU,Aimfinity Investment Corp. I Unit,$18.37,1.69,10.132%,0.00,United States,2022,150,Finance,Blank Checks
-AIMAW,Aimfinity Investment Corp. I Warrant,$0.0598,0.0196,48.756%,0.00,United States,2022,1320,Finance,Blank Checks
-AIMBU,Aimfinity Investment Corp. I Subunit,$18.00,0.30,1.695%,0.00,United States,2022,917,Finance,Blank Checks
 AIOT,PowerFleet Inc. Common Stock,$4.75,-0.03,-0.628%,629419379.00,United States,,1087986,Telecommunications,Telecommunications Equipment
 AIP,Arteris Inc. Common Stock,$5.94,-0.07,-1.165%,243232249.00,United States,2021,133599,Technology,Semiconductors
 AIRS,AirSculpt Technologies Inc. Common Stock,$1.59,-0.09,-5.357%,93133480.00,United States,2021,396117,Health Care,Medical/Nursing Services
@@ -32,15 +25,11 @@ AIRTP,Air T Inc. Air T Funding Alpha Income Trust Preferred Securities,$15.90,-0
 AISP,Airship AI Holdings Inc. Class A Common Stock,$3.59,-0.17,-4.521%,113980055.00,United States,2021,446433,Technology,Computer Software: Prepackaged Software
 AIXI,XIAO-I Corporation American Depositary Shares,$2.59,-0.24,-8.481%,21671866.00,China,2023,45945,Technology,Computer Software: Prepackaged Software
 ALDF,Aldel Financial II Inc. Class A Ordinary Shares,$10.10,-0.01,-0.099%,0.00,United States,2024,861286,,
-ALDFU,Aldel Financial II Inc. Units,$10.23,0.01,0.098%,0.00,United States,2024,120,Finance,Blank Checks
-ALDFW,Aldel Financial II Inc. Warrants,$0.25,-0.02,-7.407%,0.00,United States,2024,6682,,
 ALF,Centurion Acquisition Corp. Class A Ordinary Shares,$10.28,0.00,0.00%,0.00,United States,2024,16491,,
-ALFUW,Centurion Acquisition Corp. Warrant,$0.15,-0.0099,-6.191%,0.00,United States,2024,159250,Finance,Blank Checks
 ALNT,Allient Inc. Common Stock,$21.15,0.12,0.571%,356268281.00,United States,,81184,Industrials,Electrical Products
 ALOT,AstroNova Inc. Common Stock,$8.04,-0.19,-2.309%,60901665.00,United States,1983,14779,Technology,Computer peripheral equipment
 ALT,Altimmune Inc. Common Stock,$4.40,-0.13,-2.87%,338860095.00,United States,,1056944,Health Care,Biotechnology: Pharmaceutical Preparations
 ALVO,Alvotech Ordinary Shares,$8.32,-0.28,-3.256%,2511023233.00,Luxembourg,,120734,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-ALVOW,Alvotech Warrant,$1.11,-0.19,-14.615%,335004301.00,Luxembourg,,110,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 AMAL,Amalgamated Financial Corp. Common Stock (DE),$26.53,0.26,0.99%,814135502.00,United States,2018,182071,Finance,Major Banks
 AMBR,Amber International Holding Limited American Depositary Shares,$10.50,0.25,2.439%,950625165.00,Hong Kong,2017,25040,Finance,Finance: Consumer Services
 AMOD,Alpha Modus Holdings Inc. Class A Common Stock,$1.37,0.15,12.295%,17093189.00,United States,,157295,Miscellaneous,Multi-Sector Companies
@@ -48,13 +37,11 @@ AMTX,Aemetis Inc. (DE) Common Stock,$1.33,-0.10,-6.993%,70914722.00,United State
 ANIP,ANI Pharmaceuticals Inc.,$69.20,-0.35,-0.503%,1455280775.00,United States,,327943,Health Care,Biotechnology: Pharmaceutical Preparations
 ANL,Adlai Nortye Ltd. American Depositary Shares,$1.91,-0.18,-8.612%,70479512.00,Cayman Islands,2023,1633,Health Care,Biotechnology: Pharmaceutical Preparations
 ANSC,Agriculture & Natural Solutions Acquisition Corporation Class A Ordinary Shares,$10.67,-0.02,-0.187%,0.00,United States,2024,26570,,
-ANSCW,Agriculture & Natural Solutions Acquisition Corporation Warrant,$0.1998,0.0298,17.529%,0.00,United States,2024,7768,,
 APGE,Apogee Therapeutics Inc. Common Stock,$32.04,-0.81,-2.466%,1906482015.00,United States,2023,678426,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 APLT,Applied Therapeutics Inc. Common Stock,$0.3038,-0.0244,-7.434%,43010645.00,United States,2019,3383249,Health Care,Biotechnology: Pharmaceutical Preparations
 APPF,AppFolio Inc. Class A Common Stock,$217.92,-3.94,-1.776%,7933324645.00,United States,2015,165794,Technology,Computer Software: Prepackaged Software
 APPN,Appian Corporation Class A Common Stock,$26.92,-0.51,-1.859%,1993294388.00,United States,2017,525452,Technology,Computer Software: Prepackaged Software
 AQST,Aquestive Therapeutics Inc. Common Stock,$2.50,-0.07,-2.724%,247178423.00,United States,2018,633195,Health Care,Biotechnology: Pharmaceutical Preparations
-ARBKL,Argo Blockchain plc 8.75% Senior Notes due 2026,$6.6801,-0.1399,-2.051%,4250881635.00,United Kingdom,,8679,Finance,Finance: Consumer Services
 ARCT,Arcturus Therapeutics Holdings Inc. Common Stock,$10.30,-0.27,-2.554%,279334177.00,Israel,2013,399875,Health Care,Biotechnology: Pharmaceutical Preparations
 ARDX,Ardelyx Inc. Common Stock,$4.60,-0.04,-0.862%,1096438621.00,United States,2014,3501862,Health Care,Biotechnology: Pharmaceutical Preparations
 ARKR,Ark Restaurants Corp. Common Stock,$8.60,-0.08,-0.922%,30995750.00,United States,,1777,Consumer Discretionary,Restaurants
@@ -64,14 +51,8 @@ ARTV,Artiva Biotherapeutics Inc. Common Stock,$2.30,-0.05,-2.128%,56035174.00,Un
 ASBP,Aspire Biopharma Holdings Inc. Common Stock,$0.5515,0.0011,0.20%,26968885.00,United States,2022,63187,Health Care,Biotechnology: Pharmaceutical Preparations
 ASRV,AmeriServ Financial Inc. Common Stock,$2.16,0.07,3.349%,35681617.00,United States,,28311,Finance,Major Banks
 ASTL,Algoma Steel Group Inc. Common Shares,$4.71,0.16,3.516%,493884957.00,Canada,,740641,Industrials,Steel/Iron Ore
-ASTLW,Algoma Steel Group Inc. Warrant,$0.29,-0.02,-6.452%,30409053.00,Canada,,250,Industrials,Steel/Iron Ore
 ATAI,ATAI Life Sciences N.V. Common Shares,$1.42,0.03,2.158%,281595166.00,Germany,2008,896791,Health Care,Biotechnology: Pharmaceutical Preparations
-ATCOL,Atlas Corp. 7.125% Notes due 2027,$24.00,-0.33,-1.356%,4903878648.00,United Kingdom,,1477,Consumer Discretionary,Marine Transportation
 ATII,Archimedes Tech SPAC Partners II Co. Ordinary Shares,$9.965,0.00,0.00%,0.00,United States,2025,55798,,
-ATIIU,Archimedes Tech SPAC Partners II Co. Unit,$10.07,-0.0101,-0.10%,0.00,United States,2025,409,Finance,Blank Checks
-ATIIW,Archimedes Tech SPAC Partners II Co. Warrant,$0.23,-0.01,-4.167%,0.00,United States,2025,50009,Finance,Blank Checks
-ATLCL,Atlanticus Holdings Corporation 6.125% Senior Notes due 2026,$23.8301,0.0801,0.337%,360200159.00,United States,,4845,Finance,Finance: Consumer Services
-ATLCZ,Atlanticus Holdings Corporation 9.25% Senior Notes due 2029,$24.624,0.174,0.712%,372200231.00,United States,,25544,Finance,Finance: Consumer Services
 ATLN,Atlantic International Corp. Common Stock,$3.80,0.14,3.825%,237179607.00,United States,2024,18679,Industrials,Biotechnology: Laboratory Analytical Instruments
 ATMC,AlphaTime Acquisition Corp Ordinary Shares,$11.61,0.00,0.00%,0.00,United States,2023,5,Finance,Blank Checks
 ATMCR,AlphaTime Acquisition Corp Right,$0.16,0.00,0.00%,0.00,United States,2023,1,Finance,Blank Checks
@@ -91,7 +72,6 @@ AZI,Autozi Internet Technology (Global) Ltd. Class A Ordinary Shares,$0.85,-0.02
 BACQ,Bleichroeder Acquisition Corp. I Class A Ordinary Shares,$10.03,0.01,0.10%,0.00,United States,2024,450854,,
 BACQU,Bleichroeder Acquisition Corp. I Unit,$10.1899,0.00,0.00%,0.00,United States,2024,78,Finance,Blank Checks
 BAER,Bridger Aerospace Group Holdings Inc. Common Stock,$1.55,-0.07,-4.321%,84037937.00,United States,,277143,Consumer Discretionary,Business Services
-BAERW,Bridger Aerospace Group Holdings Inc. Warrant,$0.0795,-0.0139,-14.882%,4310333.00,United States,,200971,Consumer Discretionary,Business Services
 BAYA,Bayview Acquisition Corp Ordinary Shares,$10.94,0.025,0.229%,0.00,United States,2023,56149,,
 BAYAR,Bayview Acquisition Corp Right,$0.1968,-0.0232,-10.545%,0.00,United States,2023,1104,,
 BBNX,Beta Bionics Inc. Common Stock,$10.94,0.46,4.389%,474236310.00,United States,2025,307226,Health Care,Medical/Dental Instruments
@@ -119,8 +99,6 @@ BRID,Bridgford Foods Corporation Common Stock,$7.7652,-0.1348,-1.706%,70483416.0
 BRLT,Brilliant Earth Group Inc. Class A Common Stock,$1.39,-0.10,-6.711%,138150554.00,United States,2021,31694,Consumer Discretionary,Consumer Specialties
 BRNS,Barinthus Biotherapeutics plc American Depositary Shares,$0.705,0.024,3.524%,28439273.00,United Kingdom,2021,7296,Health Care,Biotechnology: Pharmaceutical Preparations
 BSII,Black Spade Acquisition II Co Class A Ordinary Share,$10.15,0.00,0.00%,0.00,Hong Kong,2024,606,,
-BSIIU,Black Spade Acquisition II Co Unit,$10.45,0.11,1.064%,0.00,Hong Kong,2024,163,Finance,Blank Checks
-BSIIW,Black Spade Acquisition II Co Warrant,$0.2949,0.0449,17.96%,0.00,Hong Kong,2024,100,Finance,Blank Checks
 BSLK,Bolt Projects Holdings Inc. Common Stock,$0.2401,-0.01,-3.998%,8255126.00,United States,2021,117666,Industrials,Major Chemicals
 BTMD,Biote Corp. Class A Common Stock,$3.31,-0.14,-4.058%,181090934.00,United States,,89644,Health Care, Medicinal Chemicals and Botanical Products 
 BTOC,Armlogi Holding Corp. Common Stock,$1.13,-0.05,-4.237%,47095176.00,United States,2024,60501,Consumer Discretionary,Office Equipment/Supplies/Services
@@ -139,11 +117,7 @@ CARM,Carisma Therapeutics Inc. Common Stock,$0.2009,0.0039,1.98%,8395228.00,Unit
 CBFV,CB Financial Services Inc. Common Stock,$28.17,0.19,0.679%,144261584.00,United States,,15720,Finance,Major Banks
 CCAP,Crescent Capital BDC Inc. Common stock,$15.17,-0.03,-0.197%,562223668.00,United States,,179330,Finance,Finance: Consumer Services
 CCIR,Cohen Circle Acquisition Corp. I Class A Ordinary Shares,$11.20,-0.03,-0.267%,0.00,United States,2024,88067,,
-CCIRU,Cohen Circle Acquisition Corp. I Unit,$11.59,0.3499,3.113%,0.00,United States,2024,7031,Finance,Blank Checks
-CCIRW,Cohen Circle Acquisition Corp. I Warrant,$1.59,-0.06,-3.636%,0.00,United States,2024,1276,Finance,Blank Checks
 CCIX,Churchill Capital Corp IX Ordinary Shares,$10.75,0.04,0.373%,0.00,United States,2024,354,,
-CCIXU,Churchill Capital Corp IX Unit,$10.90,0.00,0.00%,0.00,United States,2024,253,,
-CCIXW,Churchill Capital Corp IX Warrant,$0.65,0.00,0.00%,0.00,United States,2024,3,,
 CCLD,CareCloud Inc. Common Stock,$1.38,-0.05,-3.497%,58396788.00,United States,2014,328128,Technology,Computer Software: Prepackaged Software
 CCLDO,CareCloud Inc. 8.75% Series B Cumulative Redeemable Perpetual Preferred Stock,$18.5803,0.3803,2.09%,786253506.00,United States,,12012,Technology,Computer Software: Prepackaged Software
 CDLX,Cardlytics Inc. Common Stock,$1.50,-0.05,-3.226%,78127836.00,United States,2018,466036,Technology,Computer Software: Programming Data Processing
@@ -154,7 +128,6 @@ CDZIP,Cadiz Inc. Depositary Shares,$17.29,-0.09,-0.518%,1414062840.00,United Sta
 CEP,Cantor Equity Partners Inc. Class A Ordinary Shares,$10.60,-0.02,-0.188%,304605564.00,United States,2024,182258,Finance,Investment Managers
 CEPO,Cantor Equity Partners I Inc. Class A Ordinary Shares,$10.35,-0.03,-0.289%,0.00,United States,2025,5319,Finance,Blank Checks
 CERS,Cerus Corporation Common Stock,$1.30,-0.03,-2.256%,241526760.00,United States,1997,730506,Technology,EDP Services
-CGBDL,Carlyle Secured Lending Inc. 8.20% Notes due 2028,$25.51,0.03,0.118%,1297144164.00,United States,,4735,,
 CHAR,Charlton Aria Acquisition Corporation Class A Ordinary Shares,$10.1241,0.00,0.00%,0.00,United States,2024,22,,
 CHRS,Coherus BioSciences Inc. Common Stock,$1.01,-0.05,-4.717%,117055817.00,United States,2014,1745632,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 CJET,Chijet Motor Company Inc. Ordinary Shares,$1.88,-0.05,-2.591%,61126358.00,Cayman Islands,,2920,Consumer Discretionary,Auto Manufacturing
@@ -168,7 +141,6 @@ CLYM,Climb Bio Inc. Common Stock,$1.26,-0.10,-7.353%,85018998.00,United States,2
 CMBM,Cambium Networks Corporation Ordinary Shares,$0.3744,-0.0226,-5.693%,10574482.00,Cayman Islands,2019,110134,Technology,Radio And Television Broadcasting And Communications Equipment
 CMLS,Cumulus Media Inc. Class A Common Stock,$0.2391,-0.0442,-15.602%,4119640.00,United States,,1224424,Consumer Discretionary,Broadcasting
 CMPO,CompoSecure Inc. Class A Common Stock,$10.49,0.04,0.383%,1073252681.00,United States,2020,481679,Finance,Finance: Consumer Services
-CMPOW,CompoSecure Inc. Warrant,$3.44,0.06,1.775%,351953215.00,United States,2020,2970,Finance,Finance: Consumer Services
 CMRX,Chimerix Inc. Common Stock,$8.55,0.00,0.00%,802022883.00,United States,2013,1963135,Health Care,Biotechnology: Pharmaceutical Preparations
 CNCK,Coincheck Group N.V. Ordinary Shares,$6.10,0.91,17.534%,791188764.00,Netherlands,,55541,Finance,Finance: Consumer Services
 CNTB,Connect Biopharma Holdings Limited American Depositary Shares,$0.83,0.0001,0.012%,45939843.00,China,2021,206326,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -187,22 +159,15 @@ CSLR,Complete Solaria Inc. Common Stock,$1.90,0.08,4.396%,140157809.00,United St
 CSPI,CSP Inc. Common Stock,$15.16,0.41,2.78%,149787061.00,United States,1982,16717,Technology,EDP Services
 CSTL,Castle Biosciences Inc. Common Stock,$21.26,0.21,0.998%,606209957.00,United States,2019,501771,Health Care,Medical Specialities
 CUB,Lionheart Holdings Class A Ordinary Shares,$10.27,0.00,0.00%,326263276.00,United States,2024,30254,Industrials,Industrial Machinery/Components
-CUBWU,Lionheart Holdings Unit,$10.26,0.00,0.00%,0.00,United States,2024,1,Finance,Blank Checks
-CUBWW,Lionheart Holdings Warrant,$0.13,0.00,0.00%,0.00,United States,2024,20,,
 CURR,Currenc Group Inc. Ordinary Shares,$1.47,-0.03,-2.00%,68396159.00,Singapore,,24584,Consumer Discretionary,Business Services
 CVAC,CureVac N.V. Ordinary Shares,$3.20,-0.03,-0.929%,720498797.00,Germany,2020,508161,Health Care,Biotechnology: Pharmaceutical Preparations
 CYCU,Cycurion Inc. Common Stock,$0.4161,-0.0611,-12.804%,4942306.00,United States,2025,1775512,Technology,EDP Services
 CZWI,Citizens Community Bancorp Inc. Common Stock,$13.48,0.20,1.506%,134658945.00,United States,2006,11536,Finance,Savings Institutions
 DAVE,Dave Inc. Class A Common Stock,$82.17,-1.67,-1.992%,1075944087.00,United States,,289691,Finance,Finance: Consumer Services
-DAVEW,Dave Inc. Warrants,$0.1697,0.0146,9.413%,2222073.00,United States,,13636,Finance,Finance: Consumer Services
-DCOMG,Dime Community Bancshares Inc. 9.000% Fixed-to-Floating Rate Subordinated Notes due 2034,$25.8799,0.3799,1.49%,1013162811.00,United States,,3435,Finance,Major Banks
 DHAI,DIH Holdings US Inc. Class A Common Stock,$0.1755,-0.0055,-3.039%,8307521.00,United States,2024,574210,Health Care,Medical/Dental Instruments
 DIBS,1stdibs.com Inc. Common Stock,$2.38,-0.02,-0.833%,84257786.00,United States,2021,165485,Consumer Discretionary,Catalog/Specialty Distribution
 DIST,Distoken Acquisition Corporation Ordinary Shares,$11.69,0.44,3.911%,0.00,China,2023,3762,Finance,Blank Checks
-DISTR,Distoken Acquisition Corporation Right,$0.27,0.05,22.727%,0.00,China,2023,75000,Finance,Blank Checks
-DISTW,Distoken Acquisition Corporation Warrant,$0.0511,0.0211,70.333%,0.00,China,2023,274746,Finance,Blank Checks
 DJT,Trump Media & Technology Group Corp. Common Stock,$19.74,-0.22,-1.102%,4344090305.00,United States,2024,4516159,Technology,Computer Software: Programming Data Processing
-DJTWW,Trump Media & Technology Group Corp. Warrants,$12.26,-0.485,-3.805%,2698001375.00,United States,2021,27099,Technology,Computer Software: Programming Data Processing
 DMAA,Drugs Made In America Acquisition Corp. Ordinary Shares,$10.03,0.00,0.00%,0.00,United States,2025,1000,,
 DMAAR,Drugs Made In America Acquisition Corp. Rights,$0.124,-0.006,-4.615%,0.00,United States,2025,1046,Finance,Blank Checks
 DMAAU,Drugs Made In America Acquisition Corp. Units,$10.14,-0.01,-0.099%,0.00,United States,2025,1957,,
@@ -236,7 +201,6 @@ EVER,EverQuote Inc. Class A Common Stock,$21.89,0.86,4.089%,781997572.00,United 
 EXPI,eXp World Holdings Inc. Common Stock,$8.98,-0.295,-3.181%,1384117797.00,United States,,1144898,Finance,Real Estate
 EYPT,EyePoint Pharmaceuticals Inc. Common Stock,$5.55,-0.12,-2.116%,381444618.00,United States,,458771,Industrials,Biotechnology: Laboratory Analytical Instruments
 FACT,FACT II Acquisition Corp. Class A Ordinary Shares,$10.04,-0.05,-0.496%,0.00,United States,2024,10866,,
-FACTW,FACT II Acquisition Corp. Warrant,$0.18,0.01,5.882%,0.00,United States,2024,500,Finance,Blank Checks
 FATE,Fate Therapeutics Inc. Common Stock,$1.05,-0.07,-6.25%,120327296.00,United States,2013,1659885,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 FBYD,Falcon's Beyond Global Inc. Class A Common Stock,$8.3485,-0.0515,-0.613%,1009519671.00,United States,,10337,Consumer Discretionary,Services-Misc. Amusement & Recreation
 FCEL,FuelCell Energy Inc. Common Stock,$3.90,-0.10,-2.50%,82460711.00,United States,,658638,Energy,Industrial Machinery/Components
@@ -268,22 +232,14 @@ GAMB,Gambling.com Group Limited Ordinary Shares,$11.91,-0.17,-1.407%,414026127.0
 GANX,Gain Therapeutics Inc. Common Stock,$1.74,-0.06,-3.333%,48349296.00,United States,2021,176909,Health Care,Biotechnology: Pharmaceutical Preparations
 GAUZ,Gauzy Ltd. Ordinary Shares,$8.68,-0.11,-1.251%,162492091.00,Israel,2024,35567,Miscellaneous,Industrial Machinery/Components
 GCMG,GCM Grosvenor Inc. Class A Common Stock,$12.37,-0.24,-1.903%,2339748143.00,United States,,526988,Finance,Investment Managers
-GCMGW,GCM Grosvenor Inc. Warrant,$1.28,0.07,5.785%,242108134.00,United States,,4950,Finance,Investment Managers
 GCT,GigaCloud Technology Inc Class A Ordinary Shares,$12.05,-0.32,-2.587%,482799686.00,Hong Kong,2022,708928,Consumer Discretionary,Catalog/Specialty Distribution
 GDEN,Golden Entertainment Inc. Common Stock,$25.52,0.40,1.592%,676560899.00,United States,,156214,Consumer Discretionary,Services-Misc. Amusement & Recreation
 GDEV,GDEV Inc. Ordinary Shares,$12.35,-0.05,-0.403%,223906612.00,Cyprus,,21458,Technology,EDP Services
 GDS,GDS Holdings Limited ADS,$19.82,-0.81,-3.926%,3852960690.00,China,2016,5107906,Technology,Computer Software: Programming Data Processing
 GECC,Great Elm Capital Corp. Common Stock,$10.09,0.14,1.407%,76703776.00,United States,,17466,Finance,Finance: Consumer Services
-GECCH,Great Elm Capital Corp. 8.125% Notes Due 2029,$24.90,0.40,1.633%,0.00,United States,,1020,,
-GECCI,Great Elm Capital Corp. 8.50% NOTES DUE 2029,$25.01,0.00,0.00%,0.00,United States,,176,Finance,Finance Companies
-GECCO,Great Elm Capital Corp. 5.875% Notes due 2026,$25.00,0.01,0.04%,0.00,United States,,326,Finance,Finance Companies
-GECCZ,Great Elm Capital Corp. 8.75% Notes due 2028,$25.05,0.00,0.00%,0.00,United States,,1478,Finance,Finance Companies
-GEGGL,Great Elm Group Inc.  7.25% Notes due 2027,$23.06,0.0099,0.043%,653556189.00,United States,,240,Finance,Finance: Consumer Services
 GENK,GEN Restaurant Group Inc. Class A Common Stock,$4.06,-0.11,-2.638%,134537304.00,United States,2023,29441,Consumer Discretionary,Restaurants
 GHRS,GH Research PLC Ordinary Shares,$8.70,-0.29,-3.226%,539644862.00,Ireland,2021,132565,Health Care,Biotechnology: Pharmaceutical Preparations
-GIGGW,GigCapital7 Corp. Warrant,$0.0789,0.0012,1.544%,0.00,United States,2024,2106,Finance,Blank Checks
 GPAT,GP-Act III Acquisition Corp. Class A Ordinary Share,$10.34,0.03,0.291%,0.00,United States,2024,14636,,
-GPATW,GP-Act III Acquisition Corp. Warrants,$0.21,0.01,5.00%,0.00,United States,2024,30152,,
 GPCR,Structure Therapeutics Inc. American Depositary Shares,$18.53,-0.37,-1.958%,1062562973.00,United States,2023,663322,Health Care,Biotechnology: Pharmaceutical Preparations
 GRVY,GRAVITY Co. Ltd. American Depository Shares,$59.72,-1.99,-3.225%,414988308.00,South Korea,2005,21062,Consumer Discretionary,Business Services
 GSHRU,Gesher Acquisition Corp. II Units,$10.04,0.01,0.10%,0.00,United States,2025,1734,Finance,Blank Checks
@@ -299,23 +255,14 @@ HIFS,Hingham Institution for Savings Common Stock,$237.29,2.59,1.104%,509556546.
 HLMN,Hillman Solutions Corp. Common Stock,$7.55,-0.37,-4.672%,1489830266.00,United States,2020,2165417,Consumer Discretionary,Industrial Machinery/Components
 HLXB,Helix Acquisition Corp. II Class A Ordinary Shares,$10.79,-0.10,-0.918%,0.00,United States,2024,6806,,
 HNNA,Hennessy Advisors Inc. Common Stock,$9.77,0.22,2.304%,76047110.00,United States,,25867,Finance,Investment Managers
-HNNAZ,Hennessy Advisors Inc. 4.875% Notes due 2026,$24.69,0.05,0.203%,192180467.00,United States,,4198,Finance,Investment Managers
 HOND,HCM II Acquisition Corp. Class A Ordinary Shares,$10.715,-0.035,-0.326%,0.00,United States,2024,88627,,
-HONDU,HCM II Acquisition Corp. Unit,$11.0699,-0.0601,-0.54%,0.00,United States,2024,500,Finance,Blank Checks
-HONDW,HCM II Acquisition Corp. Warrant,$0.75,0.00,0.00%,0.00,United States,2024,6778,Finance,Blank Checks
 HOVNP,Hovnanian Enterprises Inc Dep Shr Srs A Pfd,$16.46,-0.42,-2.488%,97519755.00,United States,,20538,Consumer Discretionary,Homebuilding
 HPH,Highest Performances Holdings Inc. American Depository Shares,$5.36,1.04,24.074%,1996854804.00,China,2019,30701,Finance,Investment Managers
 HPK,HighPeak Energy Inc. Common Stock,$8.98,0.43,5.029%,1132085575.00,United States,,203339,Energy,Oil & Gas Production
-HPKEW,HighPeak Energy Inc. Warrant,$0.89,0.00,0.00%,112200018.00,United States,,285,Energy,Oil & Gas Production
 HRMY,Harmony Biosciences Holdings Inc. Common Stock,$27.94,-0.81,-2.817%,1602236371.00,United States,2020,754026,Health Care,Biotechnology: Pharmaceutical Preparations
 HROW,Harrow Inc. Common Stock,$23.35,-0.44,-1.85%,832524893.00,United States,,245645,Health Care,Biotechnology: Pharmaceutical Preparations
-HROWL,Harrow Inc. 8.625% Senior Notes due 2026,$25.08,-0.12,-0.476%,894206609.00,United States,,9235,Health Care,Biotechnology: Pharmaceutical Preparations
-HROWM,Harrow  Inc. 11.875% Senior Notes due 2027,$26.09,-0.25,-0.949%,930217321.00,United States,,1632,Health Care,Biotechnology: Pharmaceutical Preparations
 HSPT,Horizon Space Acquisition II Corp. Ordinary share,$10.12,0.00,0.00%,0.00,United States,2025,200,,
-HSPTR,Horizon Space Acquisition II Corp. Right,$0.16,0.00,0.00%,0.00,United States,2025,816,,
-HSPTU,Horizon Space Acquisition II Corp. Units,$10.24,-0.0189,-0.184%,0.00,United States,2024,3598,,
 HUBC,Hub Cyber Security Ltd. Ordinary Shares,$2.94,-0.02,-0.676%,20931868.00,Israel,,183760,Telecommunications,Computer Communications Equipment
-HUBCZ,Hub Cyber Security Ltd. Warrant 8/22/2025,$0.0164,-0.0002,-1.205%,116763.00,Israel,,1485,Telecommunications,Computer Communications Equipment
 HUIZ,Huize Holding Limited American Depositary Shares,$1.80,-0.10,-5.263%,17902069.00,China,2020,10128,Finance,Specialty Insurers
 HYPR,Hyperfine Inc. Class A Common Stock,$0.6686,-0.0307,-4.39%,52038621.00,United States,2021,132534,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 IBAC,IB Acquisition Corp. Common Stock,$10.34,-0.12,-1.147%,0.00,United States,2024,5273,,
@@ -334,16 +281,13 @@ INV,Innventure Inc. Common Stock,$3.13,-0.24,-7.122%,147442719.00,United States,
 IOVA,Iovance Biotherapeutics Inc. Common Stock,$3.07,-0.16,-4.954%,1006581451.00,United States,,8144870,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 IRMD,iRadimed Corporation Common Stock,$51.96,0.00,0.00%,660675141.00,United States,2014,27577,Health Care,Medical/Dental Instruments
 IROH,Iron Horse Acquisitions Corp. Common Stock,$10.48,0.00,0.00%,0.00,United States,2024,14,,
-IROHW,Iron Horse Acquisitions Corp. Warrant,$0.0401,0.012,42.705%,0.00,United States,2024,119963,,
 IRON,Disc Medicine Inc. Common Stock,$41.00,-0.31,-0.75%,1417330722.00,United States,,546663,Health Care,Biotechnology: Pharmaceutical Preparations
 ISPO,Inspirato Incorporated Class A Common Stock,$3.48,-0.24,-6.452%,43293208.00,United States,2021,46386,Finance,Blank Checks
 ISRL,Israel Acquisitions Corp Class A Ordinary Shares,$11.59,0.03,0.26%,0.00,United States,2023,292,Finance,Blank Checks
-ISRLW,Israel Acquisitions Corp Warrant,$0.122,0.022,22.00%,0.00,United States,2023,588968,Finance,Blank Checks
 ISTR,Investar Holding Corporation Common Stock,$16.085,-0.045,-0.279%,158045307.00,United States,2014,15756,Finance,Major Banks
 ITOS,iTeos Therapeutics Inc. Common Stock,$6.22,0.285,4.802%,237568801.00,United States,2020,745538,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 IVA,Inventiva S.A. American Depository Shares,$3.31,-0.092,-2.704%,316642514.00,France,2020,8253,Health Care,Biotechnology: Pharmaceutical Preparations
 IVCA,Investcorp AI Acquisition Corp. Class A Ordinary Share,$12.10,0.00,0.00%,0.00,Cayman Islands,2022,122,Finance,Blank Checks
-IVCAW,Investcorp AI Acquisition Corp. Warrant,$0.015,-0.005,-25.00%,0.00,Cayman Islands,2022,162415,Finance,Blank Checks
 IVVD,Invivyd Inc. Common Stock,$0.4713,-0.0427,-8.307%,56537829.00,United States,2021,1196531,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 IXHL,Incannex Healthcare Inc. Common Stock,$0.62,0.01,1.639%,11073019.00,Australia,,59368,Health Care,Biotechnology: Pharmaceutical Preparations
 JANX,Janux Therapeutics Inc. Common Stock,$28.69,-0.37,-1.273%,1695726667.00,United States,2021,420023,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -361,12 +305,10 @@ KLRS,Kalaris Therapeutics Inc. Common Stock,$6.70,0.24,3.715%,125306167.00,Unite
 KLTO,Klotho Neurosciences Inc. Common Stock,$0.1672,-0.0088,-5.00%,4766978.00,United States,2022,61076,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 KOD,Kodiak Sciences Inc Common Stock,$2.36,0.05,2.165%,124486089.00,United States,2018,248512,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 KPLT,Katapult Holdings Inc. Common Stock,$7.60,-0.18,-2.314%,33905447.00,United States,2019,10127,Consumer Discretionary,Diversified Commercial Services
-KPLTW,Katapult Holdings Inc. Warrant,$0.0075,0.0013,20.968%,33459.00,United States,2019,2550,Consumer Discretionary,Diversified Commercial Services
 KROS,Keros Therapeutics Inc. Common Stock,$13.53,0.44,3.361%,548804496.00,United States,2020,1255112,Health Care,Biotechnology: Pharmaceutical Preparations
 KRUS,Kura Sushi USA Inc. Class A Common Stock,$55.33,1.34,2.482%,668689000.00,United States,2019,422008,Consumer Discretionary,Restaurants
 KTCC,Key Tronic Corporation Common Stock,$2.31,0.00,0.00%,24859922.00,United States,1983,11963,Technology,Electrical Products
 KVAC,Keen Vision Acquisition Corporation Ordinary Shares,$11.25,0.01,0.089%,0.00,United States,2023,5052,,
-KVACW,Keen Vision Acquisition Corporation Warrant,$0.0498,0.0014,2.893%,0.00,United States,2023,2200,,
 KYMR,Kymera Therapeutics Inc. Common Stock,$25.02,-0.44,-1.728%,1624902283.00,United States,2020,718293,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 LAKE,Lakeland Industries Inc. Common Stock,$15.86,0.19,1.213%,117452879.00,United States,1986,73950,Health Care,Industrial Specialties
 LAND,Gladstone Land Corporation Common Stock,$9.48,-0.08,-0.837%,343030558.00,United States,2013,254548,Real Estate,Real Estate Investment Trusts
@@ -383,16 +325,11 @@ LNTH,Lantheus Holdings Inc. Common Stock,$100.52,-2.26,-2.199%,6883265319.00,Uni
 LOOP,Loop Industries Inc. Common Stock,$1.09,0.04,3.81%,51906087.00,Canada,,61274,Industrials,Major Chemicals
 LOVE,The Lovesac Company Common Stock,$19.59,0.10,0.513%,289804743.00,United States,2018,771394,Consumer Discretionary,Other Specialty Stores
 LPAA,Launch One Acquisition Corp. Class A Ordinary shares,$10.22,-0.01,-0.098%,0.00,United States,2024,6546,,
-LPAAU,Launch One Acquisition Corp. Unit,$10.27,-0.01,-0.097%,0.00,United States,2024,1068,Finance,Blank Checks
-LPAAW,Launch One Acquisition Corp. Warrant,$0.13,-0.01,-7.143%,0.00,United States,2024,29195,Finance,Blank Checks
 LPBB,Launch Two Acquisition Corp. Class A Ordinary Shares,$10.12,-0.02,-0.197%,0.00,United States,2024,10802,,
-LPBBU,Launch Two Acquisition Corp. Unit,$10.18,-0.01,-0.098%,0.00,United States,2024,15154,Finance,Blank Checks
-LPBBW,Launch Two Acquisition Corp. Warrant,$0.16,-0.005,-3.03%,0.00,United States,2024,18894,,
 LPRO,Open Lending Corporation Common Stock,$0.8503,-0.0449,-5.016%,101851399.00,United States,,5034238,Finance,Finance: Consumer Services
 LRMR,Larimar Therapeutics Inc. Common Stock,$1.84,-0.04,-2.128%,117811321.00,United States,2014,518942,Health Care,Biotechnology: Pharmaceutical Preparations
 LSBK,Lake Shore Bancorp Inc. Common Stock,$14.35,0.0861,0.604%,82269626.00,United States,2006,16451,Finance,Savings Institutions
 LTRY,Lottery.com Inc. Common Stock,$0.7335,-0.0216,-2.861%,7801758.00,United States,2023,73607,Technology,Computer Software: Prepackaged Software
-LTRYW,Lottery.com Inc. Warrants,$0.0181,-0.0058,-24.268%,192518.00,United States,2023,152116,Technology,Computer Software: Prepackaged Software
 LUNR,Intuitive Machines Inc. Class A Common Stock,$7.565,-0.225,-2.888%,1348987592.00,United States,2021,4337863,Industrials,Industrial Machinery/Components
 LVLU,Lulu's Fashion Lounge Holdings Inc. Common Stock,$0.45,0.00,0.00%,19224639.00,United States,2021,109080,Consumer Discretionary,Catalog/Specialty Distribution
 LVRO,Lavoro Limited Class A Ordinary Shares,$3.0746,0.1746,6.021%,358523968.00,Brazil,,514,Consumer Discretionary,Other Specialty Stores
@@ -400,11 +337,9 @@ LWAY,Lifeway Foods Inc. Common Stock,$23.89,-0.08,-0.334%,363205427.00,United St
 LXEH,Lixiang Education Holding Co. Ltd. American Depositary Shares,$22.99,0.0626,0.273%,26821743.00,China,2020,120461,Real Estate,Other Consumer Services
 LXEO,Lexeo Therapeutics Inc. Common Stock,$2.28,-0.27,-10.588%,75689153.00,United States,2023,565531,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 MACI,Melar Acquisition Corp. I Class A Ordinary Shares,$10.2503,0.0003,0.003%,0.00,United States,2024,7158,,
-MACIW,Melar Acquisition Corp. I Warrant,$0.1188,-0.0013,-1.082%,0.00,United States,2024,5246,,
 MASS,908 Devices Inc. Common Stock,$4.53,0.08,1.798%,160044868.00,United States,2020,382094,Industrials,Industrial Machinery/Components
 MAYA,Maywood Acquisition Corp. Class A Ordinary Shares,$9.93,0.00,0.00%,0.00,United States,2025,4744,,
 MAZE,Maze Therapeutics Inc. Common Stock,$8.18,0.08,0.988%,358251746.00,United States,2025,103159,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
-MBAVW,M3-Brigade Acquisition V Corp. Warrant,$0.24,0.0192,8.696%,0.00,United States,2024,16242,Finance,Blank Checks
 MBUU,Malibu Boats Inc. Class A Common Stock,$26.11,-0.53,-1.989%,512677840.00,United States,2014,195765,Industrials,Marine Transportation
 MCFT,MasterCraft Boat Holdings Inc. Common Stock,$15.43,0.26,1.714%,258491260.00,United States,2015,124808,Industrials,Marine Transportation
 MDB,MongoDB Inc. Class A Common Stock,$160.04,1.46,0.921%,12993273587.00,United States,2017,2040158,Technology,Computer Software: Prepackaged Software
@@ -419,7 +354,6 @@ MNDO,MIND C.T.I. Ltd. Ordinary Shares,$1.66,-0.02,-1.19%,33808101.00,Israel,,681
 MNKD,MannKind Corporation Common Stock,$4.53,-0.11,-2.371%,1375268788.00,United States,2004,2319686,Health Care,Biotechnology: Pharmaceutical Preparations
 MNOV,Medicinova Inc Common Stock,$1.45,0.05,3.571%,71117057.00,United States,,5570,Health Care,Biotechnology: Pharmaceutical Preparations
 MNY,MoneyHero Limited Class A Ordinary Shares,$0.75,0.0297,4.123%,28901629.00,Singapore,,16435,Consumer Discretionary,Business Services
-MNYWW,MoneyHero Limited Warrants,$0.04,0.00,0.00%,1541420.00,Singapore,,62,Consumer Discretionary,Business Services
 MPB,Mid Penn Bancorp Common Stock,$25.25,0.02,0.079%,488738924.00,United States,,101650,Finance,Major Banks
 MRAM,Everspin Technologies Inc. Common Stock,$4.98,0.03,0.606%,110262404.00,United States,2016,50507,Technology,Semiconductors
 MRUS,Merus N.V. Common Shares,$41.91,-1.31,-3.031%,2895581556.00,Netherlands,2016,1058132,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -428,26 +362,19 @@ MVIS,MicroVision Inc. Common Stock,$1.19,0.00,0.00%,291555694.00,United States,1
 MYPS,PLAYSTUDIOS Inc.  Class A Common Stock,$1.30,0.03,2.362%,173505119.00,United States,2020,118034,Technology,Computer Software: Prepackaged Software
 NAII,Natural Alternatives International Inc. Common Stock,$2.75,-0.07,-2.482%,17046640.00,United States,,8868,Health Care, Medicinal Chemicals and Botanical Products 
 NAMS,NewAmsterdam Pharma Company N.V. Ordinary Shares,$16.03,-0.03,-0.187%,1760379526.00,Netherlands,,292553,Health Care,Biotechnology: Pharmaceutical Preparations
-NAMSW,NewAmsterdam Pharma Company N.V. Warrant,$7.25,-0.25,-3.333%,796179137.00,Netherlands,,626,Health Care,Biotechnology: Pharmaceutical Preparations
 NB,NioCorp Developments Ltd. Common Stock,$3.79,0.90,31.142%,143603100.00,United States,,15736212,Basic Materials,Metal Mining
 NBN,Northeast Bank Common Stock,$87.47,0.05,0.057%,711131100.00,United States,,36320,Finance,Major Banks
 NCIQ,Hashdex Nasdaq Crypto Index US ETF,$20.9635,0.0335,0.16%,90143050.00,United States,,15467,,
 NEHC,New Era Helium Inc Common Stock,$0.898,0.008,0.899%,12527813.00,United States,,171706,Energy,Oil & Gas Production
 NETD,Nabors Energy Transition Corp. II Class A Ordinary Shares,$10.99,0.00,0.00%,0.00,United States,2023,45292,,
-NETDW,Nabors Energy Transition Corp. II Warrant,$0.40,0.019,4.987%,0.00,United States,2023,4246,,
 NEUP,Neuphoria Therapeutics Inc. Common Stock,$5.11,-0.09,-1.731%,8978408.00,United States,2021,7691,,
 NEWT,NewtekOne Inc. Common Stock,$10.06,-0.11,-1.082%,264484120.00,United States,,188627,Finance,Major Banks
-NEWTG,NewtekOne Inc. 8.50% Fixed Rate Senior Notes due 2029,$24.56,0.158,0.647%,645698806.00,United States,,4906,Finance,Major Banks
-NEWTH,NewtekOne Inc. 8.625% Fixed Rate Senior Notes due 2029,$24.47,0.24,0.991%,0.00,United States,,1802,Finance,Major Banks
-NEWTI,NewtekOne Inc. 8.00% Fixed Rate Senior Notes due 2028,$24.87,0.00,0.00%,653848913.00,United States,,120,Finance,Major Banks
-NEWTZ,NewtekOne Inc. 5.50% Notes Due 2026,$24.7465,0.00,0.00%,642519264.00,United States,,153,Finance,Major Banks
 NEXN,Nexxen International Ltd. Ordinary Shares,$8.85,-0.15,-1.667%,564805363.00,Israel,2021,232054,Technology,Computer Software: Programming Data Processing
 NGNE,Neurogene Inc. Common Stock ,$10.77,-0.59,-5.194%,160791426.00,Canada,2014,112118,Health Care,Biotechnology: Pharmaceutical Preparations
 NHPAP,National Healthcare Properties Inc. 7.375% Series A Cumulative Redeemable Perpetual Preferred Stock,$13.8475,0.2935,2.165%,391834939.00,United States,,3936,Real Estate,Real Estate Investment Trusts
 NHPBP,National Healthcare Properties Inc. 7.125% Series B Cumulative Redeemable Perpetual Preferred Stock,$13.175,0.375,2.93%,372805584.00,United States,,3369,Real Estate,Real Estate Investment Trusts
 NIPG,NIP Group Inc. American Depositary Shares,$1.6524,-0.1136,-6.433%,92626363.00,Sweden,2024,52244,Consumer Discretionary,Services-Misc. Amusement & Recreation
 NIU,Niu Technologies American Depositary Shares,$2.88,-0.21,-6.796%,223368523.00,China,2018,721699,Consumer Discretionary,Auto Manufacturing
-NMFCZ,New Mountain Finance Corporation 8.250% Notes due 2028,$25.43,0.0001,0.00%,2742661483.00,United States,,7877,,
 NMIH,NMI Holdings Inc. Common Stock,$33.43,-0.67,-1.965%,2622653603.00,United States,2013,1490286,Finance,Property-Casualty Insurers
 NNNN,Anbio Biotechnology Class A Ordinary Shares,$6.57,0.19,2.978%,945365184.00,Germany,2025,27798,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 NNOX,NANO-X IMAGING LTD Ordinary Shares,$4.50,-0.20,-4.255%,286929005.00,Israel,2020,568234,Health Care,Medical Electronics
@@ -458,8 +385,6 @@ NTHI,NeOnc Technologies Holdings Inc. Common Stock,$7.00,-0.63,-8.257%,131221055
 NTIC,Northern Technologies International Corporation Common Stock,$7.02,-0.23,-3.172%,66510028.00,United States,,89961,Industrials,Industrial Specialties
 NTLA,Intellia Therapeutics Inc. Common Stock,$6.86,-0.50,-6.793%,710129776.00,United States,2016,2700544,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 NTWO,Newbury Street II Acquisition Corp Class A Ordinary Shares,$10.07,-0.01,-0.099%,0.00,United States,2024,304,,
-NTWOU,Newbury Street II Acquisition Corp Unit,$10.15,0.0001,0.001%,0.00,United States,2024,1514,,
-NTWOW,Newbury Street II Acquisition Corp Warrant,$0.1549,-0.0051,-3.188%,0.00,United States,2024,3874,,
 NUKK,Nukkleus Inc. Common Stock,$12.60,0.71,5.971%,60359431.00,China,2020,154787,Consumer Discretionary,Professional Services
 NVTS,Navitas Semiconductor Corporation Common Stock,$1.73,-0.01,-0.575%,329616615.00,United States,,2704829,Technology,Semiconductors
 NVX,NOVONIX Limited American Depository Shares,$1.05,0.01,0.962%,149084773.00,Australia,,136608,Miscellaneous,Industrial Machinery/Components
@@ -467,8 +392,6 @@ NWFL,Norwood Financial Corp. Common Stock,$22.45,-0.20,-0.883%,207945190.00,Unit
 NYXH,Nyxoah SA Ordinary Shares,$6.02,0.04,0.669%,225312135.00,Belgium,2021,119453,Health Care,Medical/Dental Instruments
 OABI,OmniAb Inc. Common Stock,$1.77,-0.12,-6.349%,216178846.00,United States,2021,562306,Health Care,Biotechnology: Commercial Physical & Biological Resarch
 OACC,Oaktree Acquisition Corp. III Life Sciences Class A Ordinary Share,$10.11,0.00,0.00%,0.00,United States,2024,16,Finance,Blank Checks
-OACCU,Oaktree Acquisition Corp. III Life Sciences Unit,$10.31,0.00,0.00%,0.00,United States,2024,50,Finance,Blank Checks
-OACCW,Oaktree Acquisition Corp. III Life Sciences Warrant,$0.6807,0.00,0.00%,0.00,United States,2024,1,Finance,Blank Checks
 OBIO,Orchestra BioMed Holdings Inc. Ordinary Shares,$2.86,0.04,1.418%,109573784.00,United States,2020,41101,Health Care, Medicinal Chemicals and Botanical Products 
 OCC,Optical Cable Corporation Common Stock,$2.88,0.01,0.348%,23611902.00,United States,,2671,Industrials,Telecommunications Equipment
 OCS,Oculis Holding AG Ordinary shares,$18.02,0.09,0.502%,786796484.00,Switzerland,,28923,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -480,7 +403,6 @@ OLLI,Ollie's Bargain Outlet Holdings Inc. Common Stock,$109.97,-4.51,-3.94%,6735
 OMER,Omeros Corporation Common Stock,$6.76,-0.11,-1.601%,392511971.00,United States,2009,392036,Health Care,Biotechnology: Pharmaceutical Preparations
 ONEW,OneWater Marine Inc. Class A Common Stock,$12.84,0.09,0.706%,209460397.00,United States,2020,87102,Consumer Discretionary,Auto & Home Supply Stores
 OPBK,OP Bancorp Common Stock,$11.21,0.00,0.00%,167188866.00,United States,2018,68284,Finance,Major Banks
-OPINL,Office Properties Income Trust 6.375% Senior Notes due 2050,$7.5278,0.0078,0.104%,525626700.00,United States,,9977,Finance,Real Estate
 ORKA,Oruka Therapeutics Inc. Common Stock,$8.61,0.05,0.584%,322362791.00,United States,,186582,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances
 OVBC,Ohio Valley Banc Corp. Common Stock,$31.85,2.20,7.42%,150045382.00,United States,,10307,Finance,Major Banks
 PAHC,Phibro Animal Health Corporation Class A Common Stock,$16.83,0.02,0.119%,681675723.00,United States,2014,228245,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -489,21 +411,15 @@ PAYO,Payoneer Global Inc. Common Stock,$6.41,-0.02,-0.311%,2306664627.00,United 
 PCSC,Perceptive Capital Solutions Corp Class A Ordinary Shares,$10.38,0.00,0.00%,0.00,United States,2024,42,,
 PDLB,Ponce Financial Group Inc. Common Stock,$11.11,-0.01,-0.09%,266264382.00,United States,2017,25471,Finance,Savings Institutions
 PDYN,Palladyne AI Corp. Common Stock,$5.80,-0.14,-2.357%,204274266.00,United States,,362511,Technology,Computer Software: Prepackaged Software
-PDYNW,Palladyne AI Corp Warrants,$0.1999,0.0099,5.211%,7040418.00,United States,,4709,Technology,Computer Software: Prepackaged Software
 PEBK,Peoples Bancorp of North Carolina Inc. Common Stock,$25.91,-0.45,-1.707%,141364934.00,United States,,6319,Finance,Major Banks
 PET,Wag! Group Co. Common Stock,$0.1188,-0.0042,-3.415%,6027178.00,United States,2021,169065,Consumer Discretionary,Other Consumer Services
-PETWW,Wag! Group Co Warrant,$0.0188,0.00,0.00%,953796.00,United States,2021,14,Consumer Discretionary,Other Consumer Services
 PFX,PhenixFIN Corporation Common Stock,$51.0874,0.00,0.00%,103185207.00,United States,,289,Finance,Finance: Consumer Services
-PFXNZ,PhenixFIN Corporation  5.25% Notes due 2028,$22.977,0.127,0.556%,46408439.00,United States,,3073,Finance,Finance: Consumer Services
 PHAR,Pharming Group N.V. ADS each representing 10 ordinary shares,$8.09,-0.07,-0.858%,553300244.00,Netherlands,,2416,Health Care,Biotechnology: Pharmaceutical Preparations
 PLBY,PLBY Group Inc. Common Stock,$0.9756,-0.0189,-1.90%,91459641.00,United States,2020,204772,Consumer Discretionary,Other Specialty Stores
 PLMK,Plum Acquisition Corp. IV Class A Ordinary Shares,$10.06,-0.01,-0.099%,0.00,United States,2025,68563,,
-PLMKU,Plum Acquisition Corp. IV Unit,$10.12,0.01,0.099%,0.00,United States,2025,4625,,
-PLMKW,Plum Acquisition Corp. IV Warrants,$0.1565,0.0135,9.441%,0.00,United States,2025,25256,,
 PMTS,CPI Card Group Inc. Common Stock,$24.92,-0.56,-2.198%,280113434.00,United States,,32403,Consumer Discretionary,Publishing
 PNBK,Patriot National Bancorp Inc. Common Stock,$1.89,0.33,21.154%,139340802.00,United States,,148202,Finance,Major Banks
 POLEU,Andretti Acquisition Corp. II Unit,$10.21,0.00,0.00%,0.00,United States,2024,14,,
-POLEW,Andretti Acquisition Corp. II Warrant,$0.17,0.0049,2.968%,0.00,United States,2024,3500,,
 PPIH,Perma-Pipe International Holdings Inc. Common Stock,$12.15,0.55,4.741%,96988201.00,United States,,19137,Industrials,Pollution Control Equipment
 PRCT,PROCEPT BioRobotics Corporation Common Stock,$52.81,-0.11,-0.208%,2894975547.00,United States,2021,942460,Health Care,Medical/Dental Instruments
 PRE,Prenetics Global Limited Class A Ordinary Share,$3.9682,0.1582,4.152%,48432675.00,Hong Kong,,10615,Finance,Blank Checks
@@ -521,10 +437,8 @@ QMCO,Quantum Corporation Common Stock,$10.40,-0.80,-7.143%,60675670.00,United St
 QSEAU,Quartzsea Acquisition Corporation Units,$10.0753,0.00,0.00%,0.00,United States,2025,2,Finance,Blank Checks
 QSG,QuantaSing Group Limited American Depositary Shares,$3.90,-0.36,-8.451%,199340712.00,China,2023,231784,Real Estate,Other Consumer Services
 QSI,Quantum-Si Incorporated Class A Common Stock,$1.16,-0.07,-5.691%,212441942.00,United States,2020,2156694,Industrials,Industrial Machinery/Components
-QSIAW,Quantum-Si Incorporated Warrant,$0.3645,-0.0215,-5.57%,66754386.00,United States,2020,6662,Industrials,Industrial Machinery/Components
 QTRX,Quanterix Corporation Common Stock,$5.16,-0.20,-3.731%,200085233.00,United States,2017,455546,Industrials,Biotechnology: Laboratory Analytical Instruments
 RAIN,Rain Enhancement Technologies Holdco Inc. Class A Common Stock,$2.785,0.1734,6.64%,18454415.00,United States,,10208,Technology,Industrial Machinery/Components
-RAINW,Rain Enhancement Technologies Holdco Inc. Warrants,$0.1399,0.0372,36.222%,927028.00,United States,,3322,Technology,Industrial Machinery/Components
 RANG,Range Capital Acquisition Corp. Ordinary Shares,$10.04,-0.05,-0.496%,0.00,United States,2025,6527,,
 RANGR,Range Capital Acquisition Corp. Rights,$0.176,0.006,3.529%,0.00,United States,2025,6624,,
 RANGU,Range Capital Acquisition Corp. Units,$10.20,0.01,0.098%,0.00,United States,2024,1911,,
@@ -537,7 +451,6 @@ RDNT,RadNet Inc. Common Stock,$50.52,-2.56,-4.823%,3740587442.00,United States,,
 RDZN,Roadzen Inc. Ordinary Shares,$0.9922,-0.1128,-10.208%,73612296.00,United States,2022,268326,Finance,Specialty Insurers
 REFI,Chicago Atlantic Real Estate Finance Inc. Common Stock,$13.83,-0.04,-0.288%,288961047.00,United States,2021,89838,Real Estate,Real Estate Investment Trusts
 RENE,Cartesian Growth Corporation II Class A Ordinary Shares,$11.93,0.01,0.084%,0.00,United States,2022,1195601,Finance,Blank Checks
-RENEW,Cartesian Growth Corporation II Warrant,$0.075,-0.002,-2.597%,0.00,United States,2022,50000,Finance,Blank Checks
 RENT,Rent the Runway Inc. Class A Common Stock,$4.07,-0.34,-7.71%,16204685.00,United States,2021,87160,Consumer Discretionary,Other Specialty Stores
 RFAI,RF Acquisition Corp II Ordinary Shares,$10.40,-0.0078,-0.075%,0.00,Singapore,2024,7243,,
 RFAIR,RF Acquisition Corp II Right,$0.0601,0.00,0.00%,0.00,Singapore,2024,7200,Technology,Computer Software: Prepackaged Software
@@ -547,13 +460,6 @@ RGS,Regis Corporation Common Stock,$17.68,0.14,0.798%,43068109.00,United States,
 RHLD,Resolute Holdings Management Common Stock ,$26.31,-1.09,-3.978%,224319007.00,United States,,39707,Finance,Finance: Consumer Services
 RICK,RCI Hospitality Holdings Inc. Common Stock,$36.81,-0.66,-1.761%,326389669.00,United States,1995,48209,Consumer Discretionary,Restaurants
 RILY,B. Riley Financial Inc. Common Stock,$3.06,0.26,9.286%,93321022.00,United States,,1059958,Finance,Investment Managers
-RILYG,B. Riley Financial Inc. 5.00% Senior Notes due 2026,$10.25,0.00,0.00%,312594927.00,United States,,43,Finance,Investment Managers
-RILYK,B. Riley Financial Inc. 5.50% Senior Notes Due 2026,$17.75,-0.0576,-0.323%,541322922.00,United States,,13174,Finance,Investment Managers
-RILYL,B. Riley Financial Inc. Depositary Shares each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001,$3.13,0.079,2.589%,95455817.00,United States,,1303,Finance,Investment Managers
-RILYN,B. Riley Financial Inc. 6.50% Senior Notes Due 2026,$10.57,0.01,0.095%,322353988.00,United States,,31872,Finance,Investment Managers
-RILYP,B. Riley Financial Inc. Depositary Shares each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock,$2.85,-0.1928,-6.336%,86916638.00,United States,,5745,Finance,Investment Managers
-RILYT,B. Riley Financial Inc. 6.00% Senior Notes Due 2028,$6.96,0.08,1.163%,212259579.00,United States,,10445,Finance,Investment Managers
-RILYZ,B. Riley Financial Inc. 5.25% Senior Notes due 2028,$6.64,0.08,1.22%,202500518.00,United States,,22749,Finance,Investment Managers
 RLAY,Relay Therapeutics Inc. Common Stock,$2.61,-0.15,-5.435%,442452026.00,United States,2020,2105850,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 RMCF,Rocky Mountain Chocolate Factory Inc. Common Stock,$1.2899,0.0449,3.606%,9915851.00,United States,,23199,Consumer Staples,Specialty Foods
 RMNI,Rimini Street Inc. (DE) Common Stock,$3.285,0.025,0.767%,299907360.00,United States,2015,138153,Consumer Discretionary,Business Services
@@ -563,7 +469,6 @@ RPD,Rapid7 Inc. Common Stock,$22.83,-0.24,-1.04%,1460408914.00,United States,201
 RSVR,Reservoir Media Inc. Common Stock,$7.05,-0.10,-1.399%,459889527.00,United States,2021,73760,Consumer Discretionary,Services-Misc. Amusement & Recreation
 RTC,Baijiayun Group Ltd. Class A Ordinary Shares,$0.215,-0.0186,-7.962%,4432581.00,China,2006,5847142,Technology,Computer Software: Prepackaged Software
 RUM,Rumble Inc. Class A Common Stock,$7.08,-0.10,-1.393%,3074834725.00,United States,2021,1275150,Technology,Computer Software: Programming Data Processing
-RUMBW,Rumble Inc. Warrant,$2.23,-0.18,-7.469%,968486079.00,United States,2021,45394,Technology,Computer Software: Programming Data Processing
 RXST,RxSight Inc. Common Stock,$14.525,-0.095,-0.65%,588125123.00,United States,2021,976972,Health Care,Ophthalmic Goods
 RYTM,Rhythm Pharmaceuticals Inc. Common Stock,$61.34,-0.75,-1.208%,3878143414.00,United States,2017,348829,Health Care,Biotechnology: Pharmaceutical Preparations
 RZLV,Rezolve AI PLC Ordinary Shares,$1.33,-0.06,-4.317%,229003083.00,United Kingdom,,2368077,Technology,Computer Software: Programming Data Processing
@@ -573,7 +478,6 @@ SBC,SBC Medical Group Holdings Incorporated Common Stock,$4.44,0.18,4.225%,46003
 SCYX,SCYNEXIS Inc. Common Stock,$0.9126,-0.0036,-0.393%,35574119.00,United States,2014,46214,Health Care,Biotechnology: Pharmaceutical Preparations
 SDHIU,Siddhi Acquisition Corp Unit,$10.04,0.01,0.10%,0.00,United States,2025,115055,Finance,Blank Checks
 SDST,Stardust Power Inc. Common Stock,$0.629,-0.013,-2.025%,36415939.00,United States,2021,176686,Industrials,Major Chemicals
-SDSTW,Stardust Power Inc. Warrant,$0.07,-0.012,-14.634%,4052648.00,United States,2021,3577,Industrials,Major Chemicals
 SEPN,Septerna Inc. Common Stock,$5.99,-0.30,-4.769%,266210551.00,United States,2024,128631,Health Care,Biotechnology: Pharmaceutical Preparations
 SERA,Sera Prognostics Inc. Class A Common Stock,$3.35,0.05,1.515%,126172933.00,United States,2021,55880,Health Care,Medical Specialities
 SFST,Southern First Bancshares Inc. Common Stock,$31.02,-0.54,-1.711%,253662079.00,United States,,10645,Finance,Major Banks
@@ -585,8 +489,6 @@ SHMD,SCHMID Group N.V. Class A Ordinary Shares,$3.15,0.00,0.00%,135370815.00,Cay
 SIBN,SI-BONE Inc. Common Stock,$13.33,0.28,2.146%,565900036.00,United States,2018,480786,Health Care,Medical/Dental Instruments
 SIGA,SIGA Technologies Inc. Common Stock,$5.92,-0.12,-1.987%,422906608.00,United States,,428590,Health Care,Biotechnology: Pharmaceutical Preparations
 SIMA,SIM Acquisition Corp. I Class A Ordinary Shares,$10.22,-0.01,-0.098%,0.00,United States,2024,99923,Miscellaneous,Industrial Machinery/Components
-SIMAU,SIM Acquisition Corp. I Unit,$10.26,0.01,0.098%,0.00,United States,2024,500,Finance,Blank Checks
-SIMAW,SIM Acquisition Corp. I Warrant,$0.1547,0.0147,10.50%,0.00,United States,2024,153269,Finance,Blank Checks
 SION,Sionna Therapeutics Inc. Common Stock,$10.00,0.48,5.042%,441243940.00,United States,2025,137952,Health Care,Biotechnology: Pharmaceutical Preparations
 SITM,SiTime Corporation Common Stock,$129.78,-8.46,-6.12%,3062526507.00,United States,2019,290540,Technology,Semiconductors
 SKYE,Skye Bioscience Inc. Common Stock,$1.58,-0.13,-7.602%,48939802.00,United States,,1166500,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -595,21 +497,15 @@ SLXN,Silexion Therapeutics Corp Ordinary Shares,$0.7712,-0.0188,-2.38%,6489351.0
 SMBC,Southern Missouri Bancorp Inc. Common Stock,$49.10,0.54,1.112%,553708900.00,United States,,16840,Finance,Banks
 SMMT,Summit Therapeutics Inc. Common Stock ,$24.62,-1.51,-5.779%,18161674312.00,United States,2015,7054432,Health Care,Biotechnology: Pharmaceutical Preparations
 SMXT,Solarmax Technology Inc. Common Stock,$1.10,-0.05,-4.348%,50415924.00,United States,2024,118677,Consumer Discretionary,Engineering & Construction
-SNCRL,Synchronoss Technologies Inc. 8.375% Senior Notes due 2026,$24.7086,0.0186,0.075%,283924496.00,United States,,10522,Health Care,Biotechnology: Pharmaceutical Preparations
 SNFCA,Security National Financial Corporation Class A Common Stock,$9.11,-0.13,-1.407%,224917455.00,United States,,29443,Finance,Finance: Consumer Services
 SNT,Senstar Technologies Corporation Common Shares,$3.05,-0.08,-2.556%,71095500.00,Canada,,7954,Telecommunications,Telecommunications Equipment
 SNWV,SANUWAVE Health Inc. Common Stock,$29.23,-0.07,-0.239%,249871866.00,United States,,75180,Health Care,Medical/Dental Instruments
 SOHO,Sotherly Hotels Inc. Common Stock,$0.6869,0.0264,3.997%,13824834.00,United States,,32487,Real Estate,Real Estate Investment Trusts
-SOHOB,Sotherly Hotels Inc. 8.0% Series B Cumulative Redeemable Perpetual Preferred Stock,$16.1225,0.00,0.00%,324488126.00,United States,,143,Real Estate,Real Estate Investment Trusts
-SOHON,Sotherly Hotels Inc. 8.25% Series D Cumulative Redeemable Perpetual Preferred Stock,$16.00,-0.20,-1.235%,322022640.00,United States,,483,Real Estate,Real Estate Investment Trusts
-SOHOO,Sotherly Hotels Inc. 7.875% Series C Cumulative Redeemable Perpetual Preferred Stock,$15.40,-0.50,-3.145%,309946791.00,United States,,2607,Real Estate,Real Estate Investment Trusts
 SOUN,SoundHound AI Inc Class A Common Stock,$7.76,-0.47,-5.711%,3095942575.00,United States,,19989241,Technology,Computer Software: Prepackaged Software
-SOUNW,SoundHound AI Inc. Warrant,$2.90,-0.29,-9.091%,1156988849.00,United States,2021,42972,Technology,Computer Software: Prepackaged Software
 SPKL,Spark I Acquisition Corp. Class A Ordinary Share,$10.79,-0.027,-0.25%,0.00,United States,2023,58940,,
 SPKLU,Spark I Acquisition Corp. Unit,$10.87,0.00,0.00%,0.00,United States,2023,14,,
 SPRY,ARS Pharmaceuticals Inc. Common Stock,$14.88,-0.11,-0.734%,1460022684.00,United States,2020,1809148,Health Care,Biotechnology: Pharmaceutical Preparations
 SSBI,Summit State Bank Common Stock,$8.32,-0.09,-1.07%,55520442.00,United States,2006,60295,Finance,Major Banks
-SSSSL,SuRo Capital Corp. 6.00% Notes due 2026,$24.2999,0.00,0.00%,572307819.00,United States,,52,Finance,Finance: Consumer Services
 STAA,STAAR Surgical Company Common Stock,$16.14,-0.38,-2.30%,796111504.00,United States,,636463,Health Care,Ophthalmic Goods
 STAI,ScanTech AI Systems Inc. Common stock,$1.78,-0.07,-3.784%,7962709.00,United States,,808582,Industrials,Electrical Products
 STHO,Star Holdings Shares of Beneficial Interest,$6.26,-0.15,-2.34%,83380396.00,United States,,61847,Real Estate,Real Estate
@@ -622,13 +518,8 @@ STRT,STRATTEC SECURITY CORPORATION Common Stock,$35.32,0.14,0.398%,147362704.00,
 SUPN,Supernus Pharmaceuticals Inc. Common Stock,$30.71,-0.75,-2.384%,1711870447.00,United States,2012,357783,Health Care,Biotechnology: Pharmaceutical Preparations
 SUUN,SolarBank Corporation Common Stock,$2.28,0.00,0.00%,77976155.00,Canada,,41051,Utilities,Power Generation
 SVCC,Stellar V Capital Corp. Class A Ordinary Shares,$9.99,0.00,0.00%,0.00,United States,2025,180403,,
-SVCCU,Stellar V Capital Corp. Unit,$10.12,-0.02,-0.197%,0.00,United States,2025,205,Finance,Blank Checks
-SVCCW,Stellar V Capital Corp. Warrant,$0.18,-0.021,-10.448%,0.00,United States,2025,25500,Finance,Blank Checks
 SVII,Spring Valley Acquisition Corp. II Class A Ordinary Shares,$11.55,0.05,0.435%,0.00,United States,2022,627,Finance,Blank Checks
-SVIIR,Spring Valley Acquisition Corp. II Rights,$0.0851,-0.0146,-14.644%,0.00,United States,2022,2696,,
-SVIIW,Spring Valley Acquisition Corp. II Warrant,$0.0999,-0.0401,-28.643%,0.00,United States,2022,46091,Finance,Blank Checks
 SWKH,SWK Holdings Corporation Common Stock,$18.11,0.01,0.055%,221898498.00,United States,,21792,Finance,Diversified Financial Services
-SWKHL,SWK Holdings Corporation 9.00% Senior Notes due 2027,$25.1847,-0.0453,-0.18%,308583495.00,United States,,7256,,
 SYM,Symbotic Inc. Class A Common Stock,$20.25,-0.51,-2.457%,11914933950.00,United States,2021,691621,Industrials,Industrial Machinery/Components
 SYPR,Sypris Solutions Inc. Common Stock,$1.75,-0.03,-1.685%,40285018.00,United States,,9475,Industrials,Industrial Machinery/Components
 SZZLU,Sizzle Acquisition Corp. II Unit,$9.985,-0.005,-0.05%,0.00,United States,2025,87732,Finance,Blank Checks
@@ -645,7 +536,6 @@ TBPH,Theravance Biopharma Inc. Ordinary Shares,$8.595,-0.035,-0.406%,425200211.0
 TCMD,Tactile Systems Technology Inc. Common Stock,$13.35,0.00,0.00%,314862086.00,United States,2016,159386,Health Care,Medical/Dental Instruments
 TCRX,TScan Therapeutics Inc. Common Stock,$1.30,0.00,0.00%,73567815.00,United States,2021,569431,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 TDACU,Translational Development Acquisition Corp. Units,$10.16,0.00,0.00%,0.00,United States,2024,16,,
-TDACW,Translational Development Acquisition Corp. Warrants,$0.155,0.009,6.164%,0.00,United States,2025,4370,,
 TECX,Tectonic Therapeutic Inc. Common Stock,$17.56,-0.38,-2.118%,327716520.00,United States,2018,113149,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 TELA,TELA Bio Inc. Common Stock,$0.9571,-0.0429,-4.29%,37854356.00,United States,2019,62900,Health Care,Medical/Dental Instruments
 THRD,Third Harmonic Bio Inc. Common Stock,$5.13,0.01,0.195%,231383002.00,United States,2022,633349,Health Care,Biotechnology: Pharmaceutical Preparations
@@ -657,7 +547,6 @@ TMDX,TransMedics Group Inc. Common Stock,$85.38,-1.80,-2.065%,2874092553.00,Unit
 TNDM,Tandem Diabetes Care Inc. Common Stock,$17.26,-0.45,-2.541%,1147328675.00,United States,2013,1309072,Health Care,Medical/Dental Instruments
 TNGX,Tango Therapeutics Inc.,$1.28,-0.095,-6.909%,138378099.00,United States,2020,380184,Health Care,Biotechnology: Pharmaceutical Preparations
 TOUR,Tuniu Corporation American Depositary Shares,$0.87,-0.0198,-2.225%,107746191.00,China,2014,34499,Consumer Discretionary,Transportation Services
-TPGXL,TPG Operating Group II L.P. 6.950% Fixed-Rate Junior Subordinated Notes due 2064,$23.76,-0.05,-0.21%,8668260414.00,United States,,39778,,
 TPIC,TPI Composites Inc. Common Stock,$0.7168,-0.0785,-9.87%,34126229.00,United States,2016,268437,Industrials,Industrial Machinery/Components
 TRDA,Entrada Therapeutics Inc. Common Stock,$7.86,-0.01,-0.127%,295493792.00,United States,2021,179751,Health Care,Biotechnology: Pharmaceutical Preparations
 TRNS,Transcat Inc. Common Stock,$83.12,-3.16,-3.662%,773803146.00,United States,,151682,Industrials,Electrical Products
@@ -679,16 +568,12 @@ UNTY,Unity Bancorp Inc. Common Stock,$41.105,0.435,1.07%,413417525.00,United Sta
 UPLD,Upland Software Inc. Common Stock,$2.25,-0.14,-5.858%,63378601.00,United States,2014,89689,Technology,Computer Software: Prepackaged Software
 URGN,UroGen Pharma Ltd. Ordinary Shares,$10.39,-0.36,-3.349%,478920317.00,Israel,2017,274190,Health Care,Biotechnology: Pharmaceutical Preparations
 USAR,USA Rare Earth Inc. Class A Common Stock,$15.66,2.14,15.828%,1283374897.00,United States,2023,12266871,Basic Materials,Metal Mining
-USARW,USA Rare Earth Inc. Warrant,$3.30,1.10,50.00%,270442986.00,United States,2023,2404922,Basic Materials,Metal Mining
 USCB,USCB Financial Holdings Inc. Class A Common Stock,$16.98,-0.04,-0.235%,340500365.00,United States,2021,13680,Finance,Major Banks
 USIO,Usio Inc. Common Stock,$1.51,-0.04,-2.581%,40036678.00,United States,,10981,Finance,Investment Bankers/Brokers/Service
 VACH,Voyager Acquisition Corp Class A Ordinary Shares,$10.21,0.00,0.00%,0.00,United States,2024,31,,
-VACHW,Voyager Acquisition Corp Warrants,$0.1871,0.0171,10.059%,0.00,United States,2024,14893,Finance,Blank Checks
 VBTX,Veritex Holdings Inc. Common Stock,$21.49,-0.07,-0.325%,1170546869.00,United States,2014,610136,Finance,Major Banks
 VCEL,Vericel Corporation Common Stock,$40.82,-1.195,-2.844%,2039757766.00,United States,,418354,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 VCIC,Vine Hill Capital Investment Corp. Class A Ordinary Shares,$10.20,0.00,0.00%,0.00,United States,2024,437,,
-VCICU,Vine Hill Capital Investment Corp. Unit,$10.30,0.00,0.00%,0.00,United States,2024,1733,,
-VCICW,Vine Hill Capital Investment Corp. Warrant,$0.21,0.0312,17.45%,0.00,United States,2024,32100,Finance,Blank Checks
 VCYT,Veracyte Inc. Common Stock,$31.53,-0.23,-0.724%,2457598661.00,United States,2013,920570,Health Care,Medical Specialities
 VEEA,Veea Inc. Common Stock,$1.61,0.02,1.258%,58669007.00,United States,2021,10328,Finance,Blank Checks
 VERA,Vera Therapeutics Inc. Class A Common Stock,$21.24,-0.35,-1.621%,1354013680.00,United States,2021,528050,Health Care,Biotechnology: Pharmaceutical Preparations
