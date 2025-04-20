@@ -21,7 +21,6 @@ AXIL,AXIL Brands Inc. Common Stock,$6.0972,1.0772,21.458%,40545478.00,,2024,2702
 AZTR,Azitra Inc Common Stock,$0.318,0.026,8.904%,4763435.00,,2023,523240,Health Care,Biotechnology: Pharmaceutical Preparations
 BATL,Battalion Oil Corporation Common Stock,$1.31,0.10,8.264%,21558098.00,United States,,17899,Energy,Oil & Gas Production
 BCV,Bancroft Fund Ltd.,$15.85,-0.4299,-2.641%,0.00,United States,1972,14076,Finance,Finance/Investors Services
-BCV^A,Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares,$22.2028,0.3228,1.475%,,United States,,888,,
 BDL,Flanigan's Enterprises Inc. Common Stock,$23.50,0.0575,0.245%,43678205.00,United States,1972,363,Consumer Discretionary,Restaurants
 BEEP,Mobile Infrastructure Corporation Common Stock,$4.02,0.02,0.50%,171252000.00,,2023,28514,Finance,Blank Checks
 BGI,Birks Group Inc. Common Stock,$0.8855,-0.0144,-1.60%,16971466.00,Canada,,132682,Consumer Discretionary,Consumer Specialties
@@ -70,7 +69,6 @@ DSS,DSS Inc. Common Stock,$0.9776,0.0276,2.905%,8888846.00,United States,,2444,C
 DXF,Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60000) Ordinary Shares),$9.25,3.56,62.566%,2307542.00,,,7678588,Finance,Finance: Consumer Services
 EAD,Allspring Income Opportunities Fund Common Shares,$6.43,-0.01,-0.155%,0.00,United States,2003,209720,Finance,Finance/Investors Services
 ECF,Ellsworth Growth and Income Fund Ltd.,$8.66,-0.13,-1.479%,0.00,United States,1986,34108,Finance,Finance/Investors Services
-ECF^A,Ellsworth Growth and Income Fund Ltd. 5.25% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share),$21.69,0.08,0.37%,,United States,,221,,
 EIM,Eaton Vance Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value,$9.505,-0.045,-0.471%,0.00,United States,2002,131814,Finance,Finance/Investors Services
 ELA,Envela Corporation Common Stock,$6.01,0.05,0.839%,156218381.00,United States,,28865,Consumer Discretionary,Consumer Specialties
 ELLO,Ellomay Capital Ltd Ordinary Shares (Israel),$14.0101,-0.6899,-4.693%,180066001.00,Israel,,589,Utilities,Electric Utilities: Central
@@ -101,7 +99,6 @@ GAU,Galiano Gold Inc.,$1.41,0.09,6.818%,362594114.00,Canada,,1334472,Industrials
 GBR,New Concept Energy Inc Common Stock,$0.73,-0.0398,-5.17%,3746312.00,United States,1993,13635,Energy,Oil & Gas Production
 GENC,Gencor Industries Inc. Common Stock,$11.15,-0.05,-0.446%,163433377.00,United States,,18813,Industrials,Construction/Ag Equipment/Trucks
 GGN,GAMCO Global Gold Natural Resources & Income Trust,$4.32,0.07,1.647%,0.00,United States,2005,845839,Finance,Finance/Investors Services
-GGN^B,GAMCO Global Gold Natural Reources & Income Trust 5.00% Series B Cumulative 25.00 Liquidation Preference,$20.58,0.10,0.488%,,United States,,9508,,
 GLDG,GoldMining Inc. Common Shares,$0.837,-0.0091,-1.076%,157963148.00,,,552173,Basic Materials,Precious Metals
 GLO,Clough Global Opportunities Fund Common Stock,$4.59,-0.09,-1.923%,0.00,United States,2006,172528,Finance,Finance/Investors Services
 GLQ,Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest,$5.91,-0.12,-1.99%,0.00,United States,2005,27890,Finance,Finance/Investors Services
@@ -110,7 +107,6 @@ GLV,Clough Global Dividend and Income Fund Common Shares of beneficial interest,
 GNS,Genius Group Limited Ordinary Shares,$0.2485,0.0002,0.081%,22365000.00,Singapore,2022,686016,Consumer Discretionary,Services-Misc. Amusement & Recreation
 GORO,Gold Resource Corporation Common Stock,$0.425,-0.0181,-4.085%,51188142.00,United States,,1965770,Basic Materials,Precious Metals
 GPUS,Hyperscale Data Inc. Common Stock,$2.22,-0.20,-8.264%,14493474.00,United States,1997,40649,Technology,Industrial Machinery/Components
-GPUS^D,Hyperscale Data Inc. 13.00% Series D Cumulative Redeemable Perpetual Preferred Stock,$11.005,-0.14,-1.256%,,United States,,2225,,
 GRAF,Graf Global Corp. Class A ordinary shares,$10.21,-0.04,-0.39%,0.00,,2024,7415,,
 GRF,Eagle Capital Growth Fund Inc. Common Stock,$9.50,-0.015,-0.158%,0.00,United States,,1550,Finance,Finance/Investors Services
 GRFX,Graphex Group Limited American Depositary Shares each representing twenty (20) Ordinary Shares,$0.92,-0.06,-6.122%,10799023.00,,,21301,Energy,Industrial Machinery/Components
@@ -120,7 +116,6 @@ GTE,Gran Tierra Energy Inc. Common Stock,$4.50,0.26,6.132%,138376503.00,Canada,,
 HCWC,Healthy Choice Wellness Corp. Class A Common Stock,$0.45,0.0202,4.70%,4754587.00,,2024,24531,Consumer Staples,Food Chains
 HNW,Pioneer Diversified High Income Fund Inc.,$11.43,-0.08,-0.695%,0.00,United States,2007,23341,Finance,Finance/Investors Services
 HUSA,Houston American Energy Corporation Common Stock,$0.5513,-0.0135,-2.39%,8647986.00,United States,,149713,Energy,Oil & Gas Production
-HWM^,Howmet Aerospace Inc. $3.75 Preferred Stock,$70.625,3.625,5.41%,,United States,,1406,,
 HYLN,Hyliion Holdings Corp. Class A Common Stock,$1.34,-0.11,-7.586%,234259033.00,United States,2019,799084,Consumer Discretionary,Construction/Ag Equipment/Trucks
 IAF,abrdn Australia Equity Fund Inc. Common Stock,$3.98,-0.03,-0.748%,0.00,United States,1985,67993,Finance,Finance/Investors Services
 IAUX,i-80 Gold Corp. Common Shares,$0.613,0.0263,4.483%,271778951.00,Canada,2022,4502454,Basic Materials,Precious Metals
@@ -191,19 +186,11 @@ NTIP,Network-1 Technologies Inc. Common Stock,$1.22,-0.05,-3.937%,28037151.00,Un
 OBE,Obsidian Energy Ltd. Common Shares,$5.04,0.26,5.439%,371371402.00,Canada,2022,664803,Energy,Oil & Gas Production
 OGEN,Oragenics Inc. Common Stock,$0.1786,-0.0077,-4.133%,3835487.00,United States,,142330,Health Care,Biotechnology: Pharmaceutical Preparations
 OPHC,OptimumBank Holdings Inc. Common Stock,$3.97,0.07,1.795%,46651796.00,United States,,16768,Finance,Major Banks
-OPP^C,RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share),$10.09,0.00,0.00%,,United States,,67,,
 OPTT,Ocean Power Technologies Inc. Common Stock,$0.4059,-0.0222,-5.186%,69023524.00,United States,2007,2606552,Utilities,Electric Utilities: Central
 ORLA,Orla Mining Ltd. Common Shares,$11.40,0.22,1.968%,3675719750.00,,2020,1742356,Basic Materials,Precious Metals
 OSTX,OS Therapies Incorporated Common Stock,$1.57,0.13,9.028%,34012183.00,,2024,279909,Health Care,Biotechnology: Pharmaceutical Preparations
 OZ,Belpointe PREP LLC Class A Units,$60.75,-1.25,-2.016%,228929571.00,,,4871,Real Estate,Real Estate Investment Trusts
 PAPL,Pineapple Financial Inc. Common Stock,$0.2917,-0.0058,-1.95%,2827162.00,,2023,63300,Finance,Finance: Consumer Services
-PCG^A,Pacific Gas & Electric Co. 6% Preferred Stock,$22.8899,0.1299,0.571%,,United States,,3402,,
-PCG^B,Pacific Gas & Electric Co. 5 1/2% Preferred Stock,$19.90,0.05,0.252%,,United States,,1342,,
-PCG^C,Pacific Gas & Electric Co. 5% 1st Preferred Stock,$18.80,0.00,0.00%,,United States,,3,,
-PCG^E,Pacific Gas & Electric Co. 5% 1st A Preferred Stock,$18.10,0.00,0.00%,,United States,,24,,
-PCG^G,Pacific Gas & Electric Co. 4.80% 1st Preferred Stock,$17.98,0.00,0.00%,,United States,,16,,
-PCG^H,Pacific Gas & Electric Co. 4.50% 1st Preferred Stock,$16.51,0.00,0.00%,,United States,,100,,
-PCG^I,Pacific Gas & Electric Co. 4.36% 1st Preferred Stock,$16.46,0.00,0.00%,,United States,,90,,
 PED,Pedevco Corp. Common Stock,$0.5454,-0.0025,-0.456%,49816501.00,United States,,36583,Energy,Oil & Gas Production
 PHGE,BiomX Inc. COmmon Stock,$0.5403,-0.0157,-2.824%,13489158.00,,2019,46006,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 PLAG,Planet Green Holdings Corp. Common Stock,$1.37,0.05,3.788%,9977318.00,China,,189254,Consumer Staples,Packaged Foods
@@ -213,7 +200,6 @@ PMNT,Perfect Moment Ltd. Common Stock,$0.9499,-0.05,-5.001%,16048323.00,United K
 PRK,Park National Corporation Common Stock,$143.64,-1.08,-0.746%,2321076174.00,United States,1994,40756,Finance,Major Banks
 PTN,Palatin Technologies Inc. Common Stock,$0.246,0.0407,19.825%,6397438.00,United States,1999,4447788,Health Care,Biotechnology: Pharmaceutical Preparations
 PW,Power REIT (MD) Common Stock,$1.12,0.0052,0.466%,3796420.00,United States,1998,6258,Real Estate,Real Estate Investment Trusts
-PW^A,Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock,$3.63,0.13,3.714%,,United States,,3500,,
 PZG,Paramount Gold Nevada Corp. Common Stock,$0.392,0.007,1.818%,26500254.00,United States,2015,1180330,Basic Materials,Metal Mining
 RCG,RENN Fund Inc Common Stock,$2.45,0.012,0.492%,0.00,United States,,2462,Finance,Investment Managers
 REI,Ring Energy Inc. Common Stock,$0.8362,0.0179,2.187%,167202813.00,United States,,2846686,Energy,Oil & Gas Production
@@ -223,7 +209,6 @@ ROLR,High Roller Technologies Inc. Common Stock,$3.092,0.252,8.873%,25896579.00,
 RVP,Retractable Technologies Inc. Common Stock,$0.693,-0.0146,-2.063%,20746451.00,United States,2001,27201,Health Care,Medical/Dental Instruments
 RYDE,Ryde Group Ltd. Class A Ordinary Shares,$0.212,-0.0125,-5.568%,4109041.00,,2024,181064,Consumer Discretionary,Business Services
 SACH,Sachem Capital Corp. Common Shares,$1.01,0.00,0.00%,47783240.00,United States,2017,232810,Real Estate,Real Estate Investment Trusts
-SACH^A,Sachem Capital Corp. 7.75% Series A Cumulative Redeemable Preferred Stock,$13.7275,-1.0325,-6.995%,,United States,,7580,,
 SATX,SatixFy Communications Ltd. Ordinary Share,$1.99,0.00,0.00%,172830616.00,,2022,294955,Technology,Radio And Television Broadcasting And Communications Equipment
 SBEV,Splash Beverage Group Inc. (NV) Common Stock,$4.30,1.48,52.482%,6655433.00,,2021,43975669,Consumer Staples,Beverages (Production/Distribution)
 SCCC,Sachem Capital Corp. 7.75% Notes due 2025,$24.36,-0.05,-0.205%,1152474986.00,United States,2020,1405,Real Estate,Real Estate Investment Trusts
@@ -283,6 +268,5 @@ WYY,WidePoint Corporation Common Stock,$2.63,-0.23,-8.042%,25730844.00,United St
 XPL,Solitario Resources Corp. Common Stock,$0.6501,0.0221,3.519%,53073136.00,United States,,193887,Basic Materials,Precious Metals
 XTNT,Xtant Medical Holdings Inc. Common Stock,$0.395,0.005,1.282%,54931826.00,United States,,410398,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 YCBD,cbdMD Inc. Common Stock,$0.2156,-0.0084,-3.75%,1350267.00,United States,2017,302258,Consumer Discretionary,Package Goods/Cosmetics
-YCBD^A,cbdMD Inc. 8.0% Series A Cumulative Convertible Preferred Stock,$1.51,0.01,0.667%,,United States,,1164,,
 ZDGE,Zedge Inc. Class B Common Stock ,$2.11,0.02,0.957%,29261214.00,,2016,39179,Technology,Computer Software: Prepackaged Software
 ZONE,CleanCore Solutions Inc. Class B Common Stock,$1.075,0.015,1.415%,8997480.00,,2024,11075,Industrials,Industrial Machinery/Components
