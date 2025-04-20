@@ -72,8 +72,8 @@ AIZ,Assurant Inc. Common Stock,$190.32,-3.48,-1.796%,9666718405.00,United States
 AIZN,Assurant Inc. 5.25% Subordinated Notes due 2061,$19.345,-0.005,-0.026%,982569712.00,United States,2020,5594,Finance,Property-Casualty Insurers
 AJG,Arthur J. Gallagher & Co. Common Stock,$332.66,-2.90,-0.864%,84728502000.00,United States,,879259,Finance,Specialty Insurers
 AKA,a.k.a. Brands Holding Corp. Common Stock,$8.58,-0.13,-1.493%,91747227.00,,2021,4075,Consumer Discretionary,Catalog/Specialty Distribution
-AKO/A,Embotelladora Andina S.A.,$17.7852,1.1442,6.876%,,Chile,,1312,,
-AKO/B,Embotelladora Andina S.A.,$23.804,-0.056,-0.235%,,Chile,,3980,,
+AKO-A,Embotelladora Andina S.A.,$17.7852,1.1442,6.876%,,Chile,,1312,,
+AKO-B,Embotelladora Andina S.A.,$23.804,-0.056,-0.235%,,Chile,,3980,,
 AKR,Acadia Realty Trust Common Stock,$19.30,0.25,1.312%,2309822649.00,United States,,646036,Real Estate,Real Estate Investment Trusts
 AL,Air Lease Corporation Class A Common Stock,$41.78,-0.71,-1.671%,4653326214.00,United States,2011,797531,Consumer Discretionary,Diversified Commercial Services
 ALB,Albemarle Corporation Common Stock,$52.57,-1.44,-2.666%,6180836845.00,United States,,4277295,Industrials,Major Chemicals
@@ -249,8 +249,8 @@ BEPH,Brookfield BRP Holdings (Canada) Inc. 4.625% Perpetual Subordinated Notes,$
 BEPI,Brookfield BRP Holdings (Canada) Inc. 4.875% Perpetual Subordinated Notes,$14.81,0.07,0.475%,4252903875.00,Canada,2021,26386,Utilities,Electric Utilities: Central
 BEPJ,Brookfield BRP Holdings (Canada) Inc. 7.250% Perpetual Subordinated Notes,$21.61,0.05,0.232%,6205621387.00,Canada,2024,17980,Utilities,Electric Utilities: Central
 BERY,Berry Global Group Inc. Common Stock,$66.82,-0.67,-0.993%,7737756000.00,United States,2012,818989,Industrials,Plastic Products
-BF/A,Brown Forman Corporation,$32.77,-0.47,-1.414%,,United States,,66827,,
-BF/B,Brown Forman Corporation,$33.02,-0.42,-1.256%,,United States,,1747133,,
+BF-A,Brown Forman Corporation,$32.77,-0.47,-1.414%,,United States,,66827,,
+BF-B,Brown Forman Corporation,$33.02,-0.42,-1.256%,,United States,,1747133,,
 BFAM,Bright Horizons Family Solutions Inc. Common Stock,$116.72,-1.44,-1.219%,6694384909.00,United States,2013,357988,Consumer Discretionary,Other Consumer Services
 BFH,Bread Financial Holdings Inc. Common Stock,$45.87,0.24,0.526%,2251866370.00,United States,,1285646,Consumer Discretionary,Business Services
 BFK,BlackRock Municipal Income Trust,$9.51,-0.06,-0.627%,0.00,United States,,178020,Finance,Finance Companies
@@ -277,7 +277,7 @@ BHV,BlackRock Virginia Municipal Bond Trust,$10.27,0.01,0.097%,0.00,United State
 BHVN,Biohaven Ltd. Common Shares ,$18.68,0.12,0.647%,1906378041.00,United States,2022,1430615,Health Care,Biotechnology: Pharmaceutical Preparations
 BILL,BILL Holdings Inc. Common Stock,$40.91,-1.30,-3.08%,4170647474.00,United States,2019,1110464,Technology,EDP Services
 BIO,Bio-Rad Laboratories Inc. Class A Common Stock,$245.21,0.23,0.094%,6868612130.00,United States,1980,339366,Industrials,Biotechnology: Laboratory Analytical Instruments
-BIO/B,Bio-Rad Laboratories Inc.,$225.29,0.00,0.00%,,United States,,2,,
+BIO-B,Bio-Rad Laboratories Inc.,$225.29,0.00,0.00%,,United States,,2,,
 BIP,Brookfield Infrastructure Partners LP Limited Partnership Units,$28.53,-0.05,-0.175%,13176733136.00,Bermuda,,459546,Consumer Discretionary,Marine Transportation
 BIPC,Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation,$35.52,-0.04,-0.112%,5080328950.00,Canada,,506149,Consumer Discretionary,Marine Transportation
 BIPH,Brookfield Infrastructure Corporation 5.000% Subordinated Notes due 2081,$15.6466,-0.0834,-0.53%,7218464592.00,Canada,2021,7496,Utilities,Oil & Gas Production
@@ -335,8 +335,8 @@ BRC,Brady Corporation Common Stock,$66.94,-0.40,-0.594%,3198408529.00,United Sta
 BRCC,BRC Inc. Class A Common Stock,$2.06,-0.07,-3.286%,438868557.00,United States,2022,306986,Consumer Staples,Beverages (Production/Distribution)
 BRDG,Bridge Investment Group Holdings Inc. Class A Common Stock,$8.76,-0.16,-1.794%,1084881210.00,United States,2021,120588,Finance,Investment Managers
 BRFS,BRF S.A.,$3.50,0.03,0.865%,5875296235.00,Brazil,,2459807,Consumer Staples,Meat/Poultry/Fish
-BRK/A,Berkshire Hathaway Inc.,$774261.00,-18239.00,-2.301%,1138840374114.00,United States,,471,,
-BRK/B,Berkshire Hathaway Inc.,$516.45,-11.72,-2.219%,1139449507553.00,United States,,5889277,,
+BRK-A,Berkshire Hathaway Inc.,$774261.00,-18239.00,-2.301%,1138840374114.00,United States,,471,,
+BRK-B,Berkshire Hathaway Inc.,$516.45,-11.72,-2.219%,1139449507553.00,United States,,5889277,,
 BRO,Brown & Brown Inc. Common Stock,$118.80,-0.73,-0.611%,33968718986.00,United States,,1207692,Finance,Specialty Insurers
 BROS,Dutch Bros Inc. Class A Common Stock,$57.75,-0.14,-0.242%,8905306872.00,United States,2021,2686276,Consumer Discretionary,Restaurants
 BRSP,BrightSpire Capital Inc. Class A Common Stock,$4.42,-0.03,-0.674%,573208518.00,United States,2018,824461,Real Estate,Real Estate Investment Trusts
@@ -527,8 +527,8 @@ CR,Crane Company Common Stock,$141.57,-0.36,-0.254%,8125838116.00,United States,
 CRBD,Corebridge Financial Inc. 6.375% Junior Subordinated Notes due 2064,$23.83,-0.22,-0.915%,0.00,United States,2024,87464,Finance,Life Insurance
 CRBG,Corebridge Financial Inc. Common Stock,$27.29,-0.52,-1.87%,15173129667.00,United States,2022,2151553,Finance,Life Insurance
 CRC,California Resources Corporation Common Stock,$34.63,0.21,0.61%,3143650070.00,United States,2020,476460,Energy,Oil & Gas Production
-CRD/A,Crawford & Company,$10.07,-0.04,-0.396%,,United States,,70397,,
-CRD/B,Crawford & Company,$10.00,0.12,1.215%,,United States,,2256,,
+CRD-A,Crawford & Company,$10.07,-0.04,-0.396%,,United States,,70397,,
+CRD-B,Crawford & Company,$10.00,0.12,1.215%,,United States,,2256,,
 CRGY,Crescent Energy Company Class A Common Stock,$8.13,0.37,4.768%,2101388701.00,United States,2021,4955712,Energy,Oil & Gas Production
 CRH,CRH PLC Ordinary Shares,$85.02,-0.93,-1.082%,57619913217.00,Ireland,,3320004,Industrials,Building Materials
 CRI,Carter's Inc. Common Stock,$35.43,-0.48,-1.337%,1275860873.00,United States,2003,1069592,Consumer Discretionary,Apparel
@@ -1015,7 +1015,7 @@ HD,Home Depot Inc. (The) Common Stock,$345.99,-8.12,-2.293%,343925189806.00,Unit
 HDB,HDFC Bank Limited Common Stock,$69.26,-0.15,-0.216%,175387344150.00,India,2001,7271755,Finance,Commercial Banks
 HE,Hawaiian Electric Industries Inc. Common Stock,$10.35,-0.03,-0.289%,1785019043.00,United States,,1685470,Utilities,Electric Utilities: Central
 HEI,Heico Corporation Common Stock,$247.15,-3.79,-1.51%,34340811849.00,United States,2000,443787,Industrials,Aerospace
-HEI/A,Heico Corporation,$198.58,-2.26,-1.125%,,United States,,290248,,
+HEI-A,Heico Corporation,$198.58,-2.26,-1.125%,,United States,,290248,,
 HEQ,John Hancock Diversified Income Fund Common Shares of Beneficial Interest,$9.85,-0.04,-0.404%,0.00,United States,2011,33708,Finance,Investment Managers
 HES,Hess Corporation Common Stock,$127.95,0.74,0.582%,39445917897.00,United States,,1710094,Energy,Integrated oil Companies
 HESM,Hess Midstream LP Class A Representing Limited Partner Interests,$36.78,-0.14,-0.379%,4293583182.00,United States,2017,631513,Energy,Oil & Gas Production
@@ -1078,7 +1078,7 @@ HUM,Humana Inc. Common Stock,$285.61,-1.17,-0.408%,34457343335.00,United States,
 HUN,Huntsman Corporation Common Stock,$12.85,-0.25,-1.908%,2222842383.00,United States,2005,3731863,Industrials,Major Chemicals
 HUYA,HUYA Inc. American depositary shares each  representing one Class A ordinary share,$3.34,-0.03,-0.89%,778498452.00,United States,2018,1223230,Technology,Computer Software: Programming Data Processing
 HVT,Haverty Furniture Companies Inc. Common Stock,$17.19,-0.18,-1.036%,278366849.00,United States,,95988,Consumer Discretionary,Other Specialty Stores
-HVT/A,Haverty Furniture Companies Inc.,$17.28,-0.97,-5.315%,,United States,,107,,
+HVT-A,Haverty Furniture Companies Inc.,$17.28,-0.97,-5.315%,,United States,,107,,
 HWM,Howmet Aerospace Inc. Common Stock,$123.93,-0.54,-0.434%,50194440780.00,United States,,2864167,Industrials,Metal Fabrications
 HXL,Hexcel Corporation Common Stock,$52.11,-0.09,-0.172%,4227769344.00,United States,,848777,Industrials,Major Chemicals
 HY,Hyster-Yale Inc. Class A common stock,$38.00,-0.12,-0.315%,672497628.00,United States,,102021,Industrials,Construction/Ag Equipment/Trucks
