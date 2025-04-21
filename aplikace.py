@@ -8,15 +8,26 @@ from datetime import datetime, date
 # 📅 Sidebar vstupy
 # ---------------------------------------------
 st.set_page_config(page_title="Finanční dashboard", layout="wide")
-
-# Načtení seznamu S&P 500 firem
 @st.cache_data
-def load_sp500():
-    url = "https://datahub.io/core/s-and-p-500-companies/r/constituents.csv"
-    return pd.read_csv(url)
-
-sp500_df = load_sp500()
-tickers = sp500_df['Symbol'].tolist()
+def load_data(market):
+    if market == "USA S&P 500":
+        url = "https://datahub.io/core/s-and-p-500-companies/r/constituents.csv"
+    elif market == "USA NYSE":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/NYSE.csv"
+    elif market == "USA NASDAQ - Global select":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/NASDAQ%20-%20Global%20select.csv"
+    elif market == "USA NASDAQ - Capital market":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/NASDAQ%20-%20Capital%20market.csv"
+    elif market == "USA NASDAQ - ADR":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/NASDAQ%20-%20ADR.csv"
+    elif market == "USA NASDAQ - Global market":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/NASDAQ%20%20-%20Global%20market.csv"
+    elif market == "USA AMEX":
+        url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/AMEX.csv"
+    else:
+        url=""
+    df = pd.read_csv(url)
+    return df
 
 # Funkce pro stažení dat (P/E, ROE, sektor)
 @st.cache_data
@@ -36,62 +47,25 @@ def fetch_extended_data(tickers):
             })
         except:
             continue
-    return pd.DataFrame(data)
+    df=pd.DataFrame(data)
+    return df
 
-financial_df = fetch_extended_data(tickers)
-financial_df.dropna(subset=['Sector', 'P/E', 'ROE'], inplace=True)
-
-
+def assign_quartiles(series, labels=["Q1", "Q2", "Q3", "Q4"]):
+    try:
+        binned = pd.qcut(series, q=4, labels=labels, duplicates='drop')
+        return binned
+    except ValueError:
+        return pd.Series(["N/A"] * len(series), index=series.index)
 
 # ---------------------------------------------
 # Karty
 # ---------------------------------------------
 tab1, tab4 = st.tabs([
-    "📊 Tabulka sektorů",
-    "🏦 Detail konkrétní firmy"
+    "🏦 Detail konkrétní firmy",
+    "📊 Tabulka sektorů"
 ])
 
 with tab1:
-    sectors = financial_df['Sector'].dropna().unique()
-    selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
-
-    sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
-    sector_df.sort_values('P/E', inplace=True)
-    sector_df['Quartile'] = pd.qcut(sector_df['P/E'], 4, labels=["Q1", "Q2", "Q3", "Q4"])
-
-    st.subheader(f"Firmy v sektoru: {selected_sector}")
-    st.dataframe(sector_df[['Ticker','Name','P/E','ROE','Quartile']])
-    # ----------------------------------------------------------------------------------------
-    st.subheader(f"Boxplot P/E")
-    fig = px.box(
-        sector_df,
-        x='P/E',
-        points='all',
-        hover_name='Name',
-        hover_data={'Ticker': True, 'P/E': ':.2f'},
-        title=f'Distribuce P/E - {selected_sector}'
-    )
-    fig.update_traces(marker=dict(size=6, opacity=0.5))
-    fig.update_layout(height=400)
-    st.plotly_chart(fig, use_container_width=True)
-    #----------------------------------------------------------------------------------------
-    st.subheader(f"Scatter plot P/E vs ROE")
-    fig = px.scatter(
-        sector_df,
-        x='P/E',
-        y='ROE',
-        hover_name='Name',
-        hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f'},
-        text='Ticker',
-        title=f"P/E vs ROE - {selected_sector}"
-    )
-    fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
-    fig.update_layout(height=600)
-    st.plotly_chart(fig, use_container_width=True)
-
-
-# Tab 4 - Detail tickeru
-with tab4:
     st.title("Finanční data a dividendy")
     ticker_symbol = st.text_input("Zadejte ticker:", "SPG")
     start_date = st.date_input("Od", value=date(2022, 1, 1))
@@ -108,7 +82,7 @@ with tab4:
 
         hist_data = ticker_data.history(start=start_date, end=end_date)
 
-        hist_data.index=hist_data.index.date
+        hist_data.index = hist_data.index.date
         hist_data['MA50'] = hist_data['Close'].rolling(window=50).mean()
         hist_data['MA200'] = hist_data['Close'].rolling(window=200).mean()
 
@@ -165,3 +139,83 @@ with tab4:
                 st.write(df_dividends[::-1])
             else:
                 st.write("Dividendová data nejsou k dispozici.")
+
+
+
+# Tab 4 - Detail tickeru
+with tab4:
+    market = st.selectbox("Vyber burzu:", ["— vyberte —"] + [
+        "USA S&P 500",
+        "USA NYSE",
+        "USA NASDAQ - Global select",
+        "USA NASDAQ - Capital market",
+        "USA NASDAQ - ADR",
+        "USA NASDAQ - Global market",
+        "USA AMEX"
+    ])
+    if market!=["— vyberte —"]:
+        sp500_df = load_data(market)
+        tickers = sp500_df['Symbol'].to_list()
+
+        financial_df = fetch_extended_data(tickers)
+        financial_df.dropna(subset=['Sector', 'P/E', 'ROE'], inplace=True)
+
+        sectors = financial_df['Sector'].dropna().unique()
+        selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
+
+        sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
+        sector_df.sort_values('P/E', inplace=True)
+        sector_df['Quartile'] = assign_quartiles(sector_df['P/E'])
+
+        st.subheader(f"Firmy v sektoru: {selected_sector}")
+        st.dataframe(sector_df[['Ticker','Name','P/E','ROE','Quartile']].set_index('Ticker'))
+        # ----------------------------------------------------------------------------------------
+        st.subheader(f"Boxplot P/E")
+        fig = px.box(
+            sector_df,
+            x='P/E',
+            points='all',
+            hover_name='Name',
+            hover_data={'Ticker': True, 'P/E': ':.2f'},
+            title=f'Distribuce P/E - {selected_sector}'
+        )
+        fig.update_layout(
+            xaxis=dict(
+                rangeslider=dict(visible=True),
+                fixedrange=False
+            ),
+            yaxis=dict(
+                fixedrange=False
+            ),
+            dragmode="pan",
+            height=500
+        )
+        fig.update_traces(marker=dict(size=6, opacity=0.5))
+        fig.update_layout(height=400)
+        st.plotly_chart(fig, use_container_width=True)
+        #----------------------------------------------------------------------------------------
+        st.subheader(f"Scatter plot P/E vs ROE")
+        fig = px.scatter(
+            sector_df,
+            x='P/E',
+            y='ROE',
+            hover_name='Name',
+            hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f'},
+            text='Ticker',
+            title=f"P/E vs ROE - {selected_sector}"
+        )
+        fig.update_layout(
+            xaxis=dict(
+                rangeslider=dict(visible=True),  # posuvník dole pro osu X
+                fixedrange=False,  # povolí zoom/scroll X
+            ),
+            yaxis=dict(
+                fixedrange=False  # povolí zoom/scroll Y
+            ),
+            dragmode='pan',  # myší můžeš táhnout plochu
+            height=600
+        )
+
+        fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
+        fig.update_layout(height=600)
+        st.plotly_chart(fig, use_container_width=True)
