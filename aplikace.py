@@ -164,6 +164,8 @@ with tab4:
         selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
 
         sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
+        sector_df['P/E'] = pd.to_numeric(sector_df['P/E'], errors='coerce')
+        sector_df = sector_df.dropna(subset=['P/E'])
         sector_df.sort_values('P/E', inplace=True)
         sector_df['Quartile'] = assign_quartiles(sector_df['P/E'])
 
@@ -222,3 +224,5 @@ with tab4:
     else:
         st.warning("Prosím, nejprve vyber burzu/index.")
         st.stop()
+
+
