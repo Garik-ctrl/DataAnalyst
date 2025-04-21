@@ -25,7 +25,7 @@ def load_data(market):
     elif market == "USA AMEX":
         url = "https://raw.githubusercontent.com/Garik-ctrl/DataAnalyst/refs/heads/main/AMEX.csv"
     else:
-        url=""
+        return pd.DataFrame()
     df = pd.read_csv(url)
     return df
 
@@ -153,7 +153,7 @@ with tab4:
         "USA NASDAQ - Global market",
         "USA AMEX"
     ])
-    if market!=["— vyberte —"]:
+    if market!="— vyberte —":
         sp500_df = load_data(market)
         tickers = sp500_df['Symbol'].to_list()
 
@@ -219,3 +219,6 @@ with tab4:
         fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
         fig.update_layout(height=600)
         st.plotly_chart(fig, use_container_width=True)
+    else:
+        st.warning("Prosím, nejprve vyber burzu/index.")
+        st.stop()
