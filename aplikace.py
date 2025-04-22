@@ -229,7 +229,7 @@ with tab4:
                 x='P/E',
                 y='ROE',
                 hover_name='Name',
-                hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f'},
+                hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f', 'Div': ':.2f'},
                 text='Ticker',
                 title=f"P/E vs ROE - {selected_sector}"
             )
@@ -245,7 +245,7 @@ with tab4:
                 x='P/E',
                 y='Div',
                 hover_name='Name',
-                hover_data={'Ticker': True, 'P/E': ':.2f', 'Div': ':.2f'},
+                hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f', 'Div': ':.2f'},
                 text='Ticker',
                 title=f"P/E vs Div - {selected_sector}"
             )
