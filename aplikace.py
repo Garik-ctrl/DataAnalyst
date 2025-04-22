@@ -205,7 +205,7 @@ with tab4:
             max_Div = float(sector_df['Div'].max())
 
             Div_range = st.slider(
-                "Vyber rozsah ROE pro zobrazení",
+                "Vyber rozsah Div pro zobrazení",
                 min_value=min_Div,
                 max_value=max_Div,
                 value=(min_Div, max_Div),
