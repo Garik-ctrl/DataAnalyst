@@ -43,7 +43,8 @@ def fetch_extended_data(tickers):
                 'Name': info.get('shortName'),
                 'Sector': info.get('sector'),
                 'P/E': info.get('trailingPE'),
-                'ROE': roe * 100 if roe is not None else None
+                'ROE': roe * 100 if roe is not None else None,
+                'Div': info.get('dividendYield',0)
             })
         except:
             continue
@@ -158,7 +159,7 @@ with tab4:
         tickers = sp500_df['Symbol'].to_list()
 
         financial_df = fetch_extended_data(tickers)
-        financial_df.dropna(subset=['Sector', 'P/E', 'ROE'], inplace=True)
+        financial_df.dropna(subset=['Sector', 'P/E', 'ROE',], inplace=True)
 
         sectors = financial_df['Sector'].dropna().unique()
         selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
@@ -170,57 +171,87 @@ with tab4:
         sector_df['Quartile'] = assign_quartiles(sector_df['P/E'])
 
         st.subheader(f"Firmy v sektoru: {selected_sector}")
-        st.dataframe(sector_df[['Ticker','Name','P/E','ROE','Quartile']].set_index('Ticker'))
+        st.dataframe(sector_df[['Ticker','Name','P/E','ROE','Div','Quartile']].set_index('Ticker'))
         # ----------------------------------------------------------------------------------------
-        st.subheader(f"Boxplot P/E")
-        fig = px.box(
-            sector_df,
-            x='P/E',
-            points='all',
-            hover_name='Name',
-            hover_data={'Ticker': True, 'P/E': ':.2f'},
-            title=f'Distribuce P/E - {selected_sector}'
-        )
-        fig.update_layout(
-            xaxis=dict(
-                rangeslider=dict(visible=True),
-                fixedrange=False
-            ),
-            yaxis=dict(
-                fixedrange=False
-            ),
-            dragmode="pan",
-            height=500
-        )
-        fig.update_traces(marker=dict(size=6, opacity=0.5))
-        fig.update_layout(height=400)
-        st.plotly_chart(fig, use_container_width=True)
-        #----------------------------------------------------------------------------------------
-        st.subheader(f"Scatter plot P/E vs ROE")
-        fig = px.scatter(
-            sector_df,
-            x='P/E',
-            y='ROE',
-            hover_name='Name',
-            hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f'},
-            text='Ticker',
-            title=f"P/E vs ROE - {selected_sector}"
-        )
-        fig.update_layout(
-            xaxis=dict(
-                rangeslider=dict(visible=True),  # posuvník dole pro osu X
-                fixedrange=False,  # povolí zoom/scroll X
-            ),
-            yaxis=dict(
-                fixedrange=False  # povolí zoom/scroll Y
-            ),
-            dragmode='pan',  # myší můžeš táhnout plochu
-            height=600
-        )
 
-        fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
-        fig.update_layout(height=600)
-        st.plotly_chart(fig, use_container_width=True)
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            min_pe = float(sector_df['P/E'].min())
+            max_pe = float(sector_df['P/E'].max())
+
+
+            pe_range = st.slider(
+                "Vyber rozsah P/E pro zobrazení",
+                min_value=min_pe,
+                max_value=max_pe,
+                value=(min_pe, max_pe),
+                step=0.5
+            )
+
+        with col2:
+            min_ROE = float(sector_df['ROE'].min())
+            max_ROE = float(sector_df['ROE'].max())
+
+            ROE_range = st.slider(
+                "Vyber rozsah ROE pro zobrazení",
+                min_value=min_ROE,
+                max_value=max_ROE,
+                value=(min_ROE, max_ROE),
+                step=0.5
+            )
+
+        with col3:
+            min_Div = float(sector_df['Div'].min())
+            max_Div = float(sector_df['Div'].max())
+
+            Div_range = st.slider(
+                "Vyber rozsah ROE pro zobrazení",
+                min_value=min_Div,
+                max_value=max_Div,
+                value=(min_Div, max_Div),
+                step=0.5
+            )
+        filtered_df = sector_df[
+            (sector_df['P/E'] >= pe_range[0]) &
+            (sector_df['P/E'] <= pe_range[1]) &
+            (sector_df['ROE'] >= ROE_range[0]) &
+            (sector_df['ROE'] <= ROE_range[1]) &
+            (sector_df['Div'] >= Div_range[0]) &
+            (sector_df['Div'] <= Div_range[1])
+                ]
+
+        left_col, right_col = st.columns(2)
+
+        with left_col:
+            #----------------------------------------------------------------------------------------
+            fig = px.scatter(
+                filtered_df,
+                x='P/E',
+                y='ROE',
+                hover_name='Name',
+                hover_data={'Ticker': True, 'P/E': ':.2f', 'ROE': ':.2f'},
+                text='Ticker',
+                title=f"P/E vs ROE - {selected_sector}"
+            )
+
+            fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
+            fig.update_layout(height=600)
+            st.plotly_chart(fig, use_container_width=True)
+
+        with right_col:
+            # ----------------------------------------------------------------------------------------
+            fig = px.scatter(
+                filtered_df,
+                x='P/E',
+                y='Div',
+                hover_name='Name',
+                hover_data={'Ticker': True, 'P/E': ':.2f', 'Div': ':.2f'},
+                text='Ticker',
+                title=f"P/E vs Div - {selected_sector}"
+            )
+            fig.update_traces(marker=dict(size=12, opacity=0.7), textposition='top center')
+            fig.update_layout(height=600)
+            st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("Prosím, nejprve vyber burzu/index.")
         st.stop()
