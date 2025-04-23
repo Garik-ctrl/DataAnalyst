@@ -40,10 +40,10 @@ def fetch_extended_data(tickers):
             roe = info.get('returnOnEquity')
             data.append({
                 'Ticker': ticker,
-                'Name': info.get('shortName'),
-                'Sector': info.get('sector'),
-                'P/E': info.get('trailingPE',0),
-                'ROE': roe * 100 if roe is not None else 0,
+                'Name': info.get('shortName','N/A'),
+                'Sector': info.get('sector','N/A'),
+                'P/E': info.get('trailingPE','N/A'),
+                'ROE': roe * 100 if roe is not None else 'N/A',
                 'Div': info.get('dividendYield',0)
             })
         except:
@@ -255,5 +255,3 @@ with tab4:
     else:
         st.warning("Prosím, nejprve vyber burzu/index.")
         st.stop()
-
-
