@@ -42,8 +42,8 @@ def fetch_extended_data(tickers):
                 'Ticker': ticker,
                 'Name': info.get('shortName'),
                 'Sector': info.get('sector'),
-                'P/E': info.get('trailingPE'),
-                'ROE': roe * 100 if roe is not None else None,
+                'P/E': info.get('trailingPE',0),
+                'ROE': roe * 100 if roe is not None else 0,
                 'Div': info.get('dividendYield',0)
             })
         except:
