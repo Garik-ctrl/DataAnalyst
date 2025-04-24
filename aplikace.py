@@ -40,10 +40,10 @@ def fetch_extended_data(tickers):
             roe = info.get('returnOnEquity')
             data.append({
                 'Ticker': ticker,
-                'Name': info.get('shortName','N/A'),
-                'Sector': info.get('sector','N/A'),
-                'P/E': info.get('trailingPE','N/A'),
-                'ROE': roe * 100 if roe is not None else 'N/A',
+                'Name': info.get('shortName',None),
+                'Sector': info.get('sector',None),
+                'P/E': info.get('trailingPE',None),
+                'ROE': roe * 100 if roe is not None else None,
                 'Div': info.get('dividendYield',0)
             })
         except:
@@ -159,14 +159,18 @@ with tab4:
         tickers = sp500_df['Symbol'].to_list()
 
         financial_df = fetch_extended_data(tickers)
-        financial_df.dropna(subset=['Sector', 'P/E', 'ROE',], inplace=True)
+        financial_df.dropna(subset=['Sector', 'P/E', 'ROE','Div'], inplace=True)
 
         sectors = financial_df['Sector'].dropna().unique()
         selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
 
         sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
         sector_df['P/E'] = pd.to_numeric(sector_df['P/E'], errors='coerce')
+        sector_df['ROE'] = pd.to_numeric(sector_df['ROE'], errors='coerce')
+        sector_df['Div'] = pd.to_numeric(sector_df['Div'], errors='coerce')
         sector_df = sector_df.dropna(subset=['P/E'])
+        sector_df = sector_df.dropna(subset=['ROE'])
+        sector_df = sector_df.dropna(subset=['Div'])
         sector_df.sort_values('P/E', inplace=True)
         sector_df['Quartile'] = assign_quartiles(sector_df['P/E'])
 
