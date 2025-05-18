@@ -206,49 +206,62 @@ with tab4:
         with col1:
             min_pe = float(sector_df['P/E'].min())
             max_pe = float(sector_df['P/E'].max())
-
-            pe_range = st.slider(
-                "Vyber rozsah P/E pro zobrazení",
-                min_value=min_pe,
-                max_value=max_pe,
-                value=(min_pe, max_pe),
-                step=0.5
-            )
+            
+            if min_pe!=max_pe:
+                pe_range = st.slider(
+                    "Vyber rozsah P/E pro zobrazení",
+                    min_value=min_pe,
+                    max_value=max_pe,
+                    value=(min_pe, max_pe),
+                    step=0.5
+                )
+            else:
+                pe_range=(min_pe,max_pe)
 
         with col2:
             min_ROE = float(sector_df['ROE'].min())
             max_ROE = float(sector_df['ROE'].max())
 
-            ROE_range = st.slider(
-                "Vyber rozsah ROE pro zobrazení",
-                min_value=min_ROE,
-                max_value=max_ROE,
-                value=(min_ROE, max_ROE),
-                step=0.5
-            )
+            if min_ROE != max_ROE:
+                ROE_range = st.slider(
+                    "Vyber rozsah ROE pro zobrazení",
+                    min_value=min_ROE,
+                    max_value=max_ROE,
+                    value=(min_ROE, max_ROE),
+                    step=0.5
+                )
+            else:
+                ROE_range=(min_ROE,max_ROE)
 
         with col3:
             min_Div = float(sector_df['Div'].min())
             max_Div = float(sector_df['Div'].max())
 
-            Div_range = st.slider(
-                "Vyber rozsah Div pro zobrazení",
-                min_value=min_Div,
-                max_value=max_Div,
-                value=(min_Div, max_Div),
-                step=0.5
-            )
+            if min_Div != max_Div:
+                Div_range = st.slider(
+                    "Vyber rozsah Div pro zobrazení",
+                    min_value=min_Div,
+                    max_value=max_Div,
+                    value=(min_Div, max_Div),
+                    step=0.5
+                )
+            else:
+                Div_range = (min_Div, max_Div)
         with col4:
             min_MC = float(sector_df['Market Cap (B)'].min())
             max_MC = float(sector_df['Market Cap (B)'].max())
 
-            MC_range = st.slider(
-                "Vyber rozsah Market Cap pro zobrazení",
-                min_value=min_MC,
-                max_value=max_MC,
-                value=(min_MC, max_MC),
-                step=0.5
-            )
+            if min_MC != max_MC:
+                MC_range = st.slider(
+                    "Vyber rozsah Market Cap pro zobrazení",
+                    min_value=min_MC,
+                    max_value=max_MC,
+                    value=(min_MC, max_MC),
+                    step=0.5
+                )
+            else:
+                MC_range=(min_MC,max_MC)
+                
         filtered_df = sector_df[
             (sector_df['P/E'] >= pe_range[0]) &
             (sector_df['P/E'] <= pe_range[1]) &
