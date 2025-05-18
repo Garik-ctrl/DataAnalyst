@@ -39,16 +39,16 @@ def fetch_extended_data(tickers):
             info = stock.info
             roe = info.get('returnOnEquity')
             mcap = info.get('marketCap')
-
-            data.append({
-                'Ticker': ticker,
-                'Name': info.get('shortName',None),
-                'Sector': info.get('sector',None),
-                'P/E': info.get('trailingPE',None),
-                'ROE': roe * 100 if roe is not None else None,
-                'Div': info.get('dividendYield',0),
-                'Market Cap': mcap
-            })
+            if info.get('trailingPE',None)!='Infinity':
+                data.append({
+                    'Ticker': ticker,
+                    'Name': info.get('shortName',None),
+                    'Sector': info.get('sector',None),
+                    'P/E': info.get('trailingPE',None),
+                    'ROE': roe * 100 if roe is not None else None,
+                    'Div': info.get('dividendYield',0),
+                    'Market Cap': mcap
+                })
         except:
             continue
     df=pd.DataFrame(data)
