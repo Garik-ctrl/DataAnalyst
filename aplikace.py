@@ -40,8 +40,6 @@ def fetch_extended_data(tickers):
             roe = info.get('returnOnEquity')
             mcap = info.get('marketCap')
 
-            if any(x in [None, 'N/A', 'Infinity'] for x in [pe, roe, mcap, sector]):
-                continue  # přeskoč firmu
             data.append({
                 'Ticker': ticker,
                 'Name': info.get('shortName',None),
