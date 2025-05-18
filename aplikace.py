@@ -39,6 +39,9 @@ def fetch_extended_data(tickers):
             info = stock.info
             roe = info.get('returnOnEquity')
             mcap = info.get('marketCap')
+
+            if any(x in [None, 'N/A', 'Infinity'] for x in [pe, roe, mcap, sector]):
+                continue  # přeskoč firmu
             data.append({
                 'Ticker': ticker,
                 'Name': info.get('shortName',None),
@@ -87,7 +90,7 @@ with tab1:
             ex_dividend_date_str = datetime.fromtimestamp(ex_dividend_date).strftime('%Y-%m-%d')
             st.write(f"**Ex-Dividend Date:** {ex_dividend_date_str}")
         else:
-            st.write("**Ex-Dividend Date:** Ní dostupné")
+            st.write("**Ex-Dividend Date:** Není dostupné")
 
         dividend_yield = info.get('dividendYield')
         if dividend_yield is not None:
@@ -184,11 +187,12 @@ with tab4:
         selected_sector = st.selectbox("Vyber sektor:", sorted(sectors))
 
         sector_df = financial_df[financial_df['Sector'] == selected_sector].copy()
-        sector_df['P/E'] = pd.to_numeric(sector_df['P/E'], errors='coerce')
-        sector_df['ROE'] = pd.to_numeric(sector_df['ROE'], errors='coerce')
-        sector_df['Div'] = pd.to_numeric(sector_df['Div'], errors='coerce')
-        sector_df['Div'] = pd.to_numeric(sector_df['Div'], errors='coerce')
-        sector_df['Market Cap (B)'] = pd.to_numeric(sector_df['Market Cap'], errors='coerce')/1e9
+        sector_df = sector_df[~sector_df['P/E'].astype(str).str.contains('infi', na=False)]
+        sector_df['P/E'] = round(pd.to_numeric(sector_df['P/E'], errors='coerce'),2)
+        sector_df['ROE'] = round(pd.to_numeric(sector_df['ROE'], errors='coerce'),2)
+        sector_df['Div'] = round(pd.to_numeric(sector_df['Div'], errors='coerce'),2)
+        sector_df['Market Cap'] = round(pd.to_numeric(sector_df['Market Cap'], errors='coerce'),2)
+        sector_df['Market Cap (B)'] = round(pd.to_numeric(sector_df['Market Cap'], errors='coerce')/1e9,2)
         sector_df = sector_df.dropna(subset=['P/E'])
         sector_df = sector_df.dropna(subset=['ROE'])
         sector_df = sector_df.dropna(subset=['Div'])
