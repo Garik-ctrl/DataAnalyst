@@ -135,7 +135,7 @@ with tab1:
                 df_dividends[::-1]
                 .style
                 .format({'Dividend': '{:.2f}', '% Change': '{:.2f}'})
-                .applymap(background_change, subset=['% Change'])
+                .map(background_change, subset=['% Change'])
             )
             st.dataframe(styled_dividends, use_container_width=True)
         else:
