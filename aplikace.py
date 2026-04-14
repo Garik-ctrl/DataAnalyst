@@ -104,7 +104,7 @@ with tab1:
 
         dividends_series = ticker_data.dividends
         if not dividends_series.empty:
-            last_dividend_value = pd.to_numeric(dividends_series.iloc[-1], errors='coerce')
+            last_dividend_value = dividends_series.iloc[-1]
             last_dividend_date = dividends_series.index[-1].strftime('%Y-%m-%d')
             if pd.notna(last_dividend_value):
                 st.write(f"**Poslední vyplacená dividenda:** {last_dividend_value:.2f} (dne {last_dividend_date})")
