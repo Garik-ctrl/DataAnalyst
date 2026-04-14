@@ -110,8 +110,8 @@ with tab1:
                 st.write(f"**Poslední vyplacená dividenda:** {last_dividend_value:.2f} (dne {last_dividend_date})")
             else:
                 st.write("**Poslední vyplacená dividenda:** Není dostupná")
-else:
-    st.write("**Poslední vyplacená dividenda:** Není dostupná")
+        else:
+            st.write("**Poslední vyplacená dividenda:** Není dostupná")
 
     with right_col:
         st.subheader("Historie dividend")
