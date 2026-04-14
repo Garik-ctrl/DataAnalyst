@@ -106,6 +106,7 @@ with tab1:
         if not dividends_series.empty:
             last_dividend_value = dividends_series.iloc[-1]
             last_dividend_date = dividends_series.index[-1].strftime('%Y-%m-%d')
+            st.write(f"**Poslední vyplacená dividenda:** {last_dividend_value:.2f} (dne {last_dividend_date})")
         else:
             st.write("**Poslední vyplacená dividenda:** Není dostupná")
 
