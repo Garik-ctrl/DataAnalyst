@@ -123,7 +123,11 @@ with tab1:
         dividends = ticker_data.dividends
 
         if not dividends.empty:
-            df_dividends = dividends.to_frame(name='Dividend')
+            if isinstance(dividends, pd.DataFrame):
+                df_dividends = dividends.copy()
+                df_dividends.columns = ['Dividend']
+            else:
+                df_dividends = dividends.to_frame(name='Dividend')
             df_dividends.index = df_dividends.index.strftime('%Y-%m-%d')
             df_dividends = df_dividends.reset_index().rename(columns={'index': 'Date'})
 
