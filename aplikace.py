@@ -104,12 +104,20 @@ with tab1:
 
         dividends_series = ticker_data.dividends
         if not dividends_series.empty:
-            last_dividend_value = dividends_series.iloc[-1]
+            raw = dividends_series.iloc[-1]
+            if hasattr(raw, '__iter__') and not isinstance(raw, str):
+                raw = raw.iloc[0] if hasattr(raw, 'iloc') else list(raw)[0]
+            
+            last_dividend_value = float(raw)
             last_dividend_date = dividends_series.index[-1].strftime('%Y-%m-%d')
-            st.write(f"**Poslední vyplacená dividenda:** {last_dividend_value:.2f} (dne {last_dividend_date})")
+            
+            if not pd.isna(last_dividend_value):
+                st.write(f"**Poslední vyplacená dividenda:** {last_dividend_value:.2f} (dne {last_dividend_date})")
+            else:
+                st.write("**Poslední vyplacená dividenda:** Není dostupná")
         else:
             st.write("**Poslední vyplacená dividenda:** Není dostupná")
-
+            
     with right_col:
         st.subheader("Historie dividend")
         dividends = ticker_data.dividends
